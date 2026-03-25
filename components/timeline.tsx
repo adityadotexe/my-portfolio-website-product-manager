@@ -55,10 +55,22 @@ const getTimelineItems = (persona: string): TimelineItem[] => [
     roleId: "freelance",
   },
   {
+    title: "Student Director - Hostel & Dining Operations",
+    company: "VIT University",
+    date: "Aug 2024 – Jun 2025",
+    roleId: "director",
+  },
+  {
     title: "Software Developer Intern",
     company: "NTPC LTD.",
     date: "Oct 2023 – Nov 2023",
     roleId: "hunch-content",
+  },
+   {
+    title: "General Secretary | Treasurer",
+    company: "VinnoavateIT",
+    date: "Sep 2023 – Dec 2024",
+    roleId: "gen-sec",
   },
   {
     title: "Full Stack Developer",

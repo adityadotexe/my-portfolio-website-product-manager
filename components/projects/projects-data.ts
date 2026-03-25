@@ -8,13 +8,13 @@ export const projectsData: Project[] = [
     image: "/projects/messit.jpg",
     imageAlt: "MessIT – Digital Dining Platform for University Students",
     briefDescription:
-      "Led product development of MessIT, a digital dining platform adopted by 10,000+ students, replacing manual mess-menu processes with a seamless digital experience.",
+      "Led product development of MessIT, a digital dining platform adopted by 10,000+ students at VIT University, replacing manual mess-menu processes with a seamless digital experience.",
     problem:
       "University dining was entirely manual — students had no visibility into daily menus, couldn't provide structured feedback, and administrators had no data to improve operations. The process was slow, inefficient, and frustrating for 10,000+ students.",
     detailedDescription:
-      "MessIT is a digital dining platform built to replace the outdated manual mess-menu processes at a large university. As the product lead, I drove the end-to-end development — from user discovery and requirements gathering to launch and adoption.\n\nThe platform gave students real-time access to daily menus, enabled structured feedback collection, and provided administrators with actionable data to improve dining operations.",
+      "MessIT is a digital dining platform built to replace the outdated manual mess-menu processes at VIT University, one of India's largest residential campuses with 30,000+ on-campus students. As the product lead, I drove the end-to-end development — from user discovery and requirements gathering to launch and adoption.\n\nThe platform gave students real-time access to daily menus, enabled structured feedback collection, and provided administrators with actionable data to improve dining operations at scale.",
     outcomeBullets: [
-      "Adopted by 10,000+ students across the university",
+      "Adopted by 10,000+ of VIT University's on-campus students",
       "Replaced 100% of manual mess-menu processes",
       "Enabled structured feedback collection for dining administrators",
       "Improved operational visibility and menu planning efficiency",
@@ -32,7 +32,7 @@ export const projectsData: Project[] = [
     kpi: "10,000+",
     kpiLabel: "Students Adopted",
     kpiValue: "Full Campus Rollout",
-    demoUrl: "",
+    demoUrl: "https://play.google.com/store/apps/details?id=com.vinnovateit.messit&pcampaignid=web_share",
     youtubeUrl: "",
   },
   {
@@ -66,7 +66,7 @@ export const projectsData: Project[] = [
     kpi: "1,250+",
     kpiLabel: "Users on Launch Day",
     kpiValue: "University's First Platform",
-    demoUrl: "",
+    demoUrl: "https://bunkbuddies.vinnovateit.com",
     youtubeUrl: "",
   },
   {
@@ -78,14 +78,14 @@ export const projectsData: Project[] = [
     briefDescription:
       "Deployed an AI-powered WhatsApp navigator using NLP models to automate end-to-end patient guidance for a secondary consultation platform serving 500+ patients/month, reducing wait times by 15%.",
     problem:
-      "JC Foundation's secondary consultation platform served 500+ cancer patients per month but struggled with high manual overhead in patient guidance. Long wait times and inconsistent communication created friction in an already stressful patient journey.",
+      "JC Foundation's secondary consultation platform serves 500+ cancer patients per month but struggled with high manual overhead in patient guidance. Long wait times and inconsistent communication created friction in an already stressful patient journey.",
     detailedDescription:
-      "At JC Foundation, I defined the product roadmap and feature requirements for an AI-enabled secondary consultation platform. The flagship feature was an AI-powered WhatsApp navigator that used NLP models to automate the end-to-end patient guidance journey.\n\nI also conducted 30+ user discovery interviews with oncologists to map workflows, identify bottlenecks, and validate pricing models — ensuring the product was grounded in real clinical needs.",
+      "At JC Foundation, I defined the product roadmap and feature requirements for an AI-enabled secondary consultation platform. The flagship feature was an AI-powered WhatsApp navigator that used NLP models to automate the end-to-end patient guidance journey.\n\nI also conducted 30+ user discovery interviews with our partnered oncologists to map workflows, identify bottlenecks, and validate pricing models — ensuring the product was grounded in real clinical needs.",
     outcomeBullets: [
       "15% reduction in patient wait times",
       "500+ patients served per month on the platform",
       "Automated end-to-end patient guidance via WhatsApp",
-      "30+ oncologist interviews conducted for user discovery",
+      "30+ oncologist/patient interviews conducted for user discovery",
       "Defined full product roadmap and feature requirements",
     ],
     technologies: [
@@ -101,7 +101,7 @@ export const projectsData: Project[] = [
     kpi: "15%",
     kpiLabel: "Wait Time Reduction",
     kpiValue: "500+ Patients/Month",
-    demoUrl: "",
+    demoUrl: "https://www.jarurat.care",
     youtubeUrl: "",
   },
   {
@@ -111,16 +111,17 @@ export const projectsData: Project[] = [
     image: "/projects/agentic-ai.png",
     imageAlt: "Agentic AI Platform for SMB Cybersecurity Navigation",
     briefDescription:
-      "Led GenAI product analysis and feature discovery for an Agentic AI platform helping SMBs navigate 9,000+ cybersecurity solutions, while implementing coordination processes that improved engineering development throughput.",
+      "Shipped 4 production AI products in 6 months and led GenAI product analysis and feature discovery for Value Aligners — an Agentic AI platform helping SMBs without a CISO navigate 9,000+ cybersecurity solutions and select the right tools based on their profile, needs, and budget.",
     problem:
-      "SMBs face an overwhelming cybersecurity landscape with 9,000+ solutions and no clear guidance on what they actually need. Value Aligners needed to define the right AI-powered features to cut through this complexity and deliver actionable recommendations.",
+      "Most SMBs operate without a CISO and face an overwhelming cybersecurity market of 9,000+ solutions with no clear way to evaluate what they actually need. The cost of wrong decisions is high — both financially and in terms of security risk. Value Aligners needed to define the right AI-powered features to cut through this complexity and deliver precise, budget-aware recommendations.",
     detailedDescription:
-      "At Value Aligners, I led GenAI product analysis and feature discovery for an Agentic AI platform designed to help SMBs navigate the complex cybersecurity market. My work spanned product strategy, engineering coordination, and release management.\n\nI identified release bottlenecks across engineering teams and implemented coordination processes that directly improved development throughput. I also managed JIRA and Confluence workflows, sprint planning, and release tracking to ensure feature validation and milestone completion.",
+      "Value Aligners is an Agentic AI platform serving SMBs across four core products: Agentic GRC & Compliance (SOC 2, ISO 27001 workflows), Virtual CISO Advisory (AI-powered security strategy), Pre-Vetted Marketplace (curated, matched security providers), and Cybersecurity Analytics (real-time risk dashboards).\n\nAs PM Intern, I Shipped 4 production AI products in 6 months, identifying which AI capabilities would deliver the most value for SMBs without dedicated security teams. I identified and resolved release bottlenecks across engineering teams, redesigned coordination processes to improve development throughput, and managed JIRA and Confluence workflows, sprint planning, and release tracking to ensure milestone completion.\n\nThe platform's recommendation engine matches SMBs to vetted cybersecurity solutions based on their specific risk profile, compliance requirements, and budget — acting as an always-on Virtual CISO for companies that can't afford one.",
     outcomeBullets: [
-      "Led feature discovery for platform navigating 9,000+ cybersecurity solutions",
-      "Identified and resolved release bottlenecks across engineering teams",
-      "Improved development throughput through coordination process redesign",
-      "Managed sprint planning, JIRA/Confluence workflows, and release tracking",
+      "Led GenAI feature discovery across 4 product lines serving budget-constrained SMBs",
+      "Identified and resolved release bottlenecks improving engineering development throughput",
+      "Redesigned sprint coordination processes across cross-functional engineering teams",
+      "Managed JIRA/Confluence workflows, sprint planning, and release tracking end-to-end",
+      "Platform navigates 9,000+ cybersecurity solutions to match SMBs by profile, need, and budget",
     ],
     technologies: [
       "GenAI",
@@ -129,6 +130,7 @@ export const projectsData: Project[] = [
       "Confluence",
       "Agile",
       "Sprint Planning",
+      "Product Discovery",
     ],
     status: "Active",
     statusColor: "green",
@@ -136,7 +138,7 @@ export const projectsData: Project[] = [
     kpi: "9,000+",
     kpiLabel: "Solutions Navigated",
     kpiValue: "SMB Cybersecurity Platform",
-    demoUrl: "",
+    demoUrl: "https://valuealigners.com",
     youtubeUrl: "",
   },
   {
@@ -146,7 +148,7 @@ export const projectsData: Project[] = [
     image: "/projects/ntpc-chatbot.png",
     imageAlt: "NTPC Jyoti Enterprise AI Chatbot",
     briefDescription:
-      "Co-developed NTPC's Enterprise AI chatbot 'Jyoti', enabling fast and secure enterprise data access for 20,000+ employees at India's largest power utility company.",
+      "Developed NTPC's Enterprise AI chatbot 'Jyoti', enabling fast and secure enterprise data access for 20,000+ employees at India's largest power utility company.",
     problem:
       "NTPC's 20,000+ employees struggled to quickly access enterprise data and internal knowledge, leading to productivity loss and reliance on manual information retrieval processes across a large, distributed organization.",
     detailedDescription:
@@ -180,11 +182,11 @@ export const projectsData: Project[] = [
   image: "/projects/studyhub.png",
   imageAlt: "StudyHub – Centralized Academic Resource Platform",
   briefDescription:
-    "Built a centralized academic platform aggregating study resources across 6+ engineering departments, simplifying access to notes, materials, and exam prep content.",
+    "Built a centralized academic platform aggregating study resources across 6+ engineering departments, simplifying access to notes, materials, and exam prep content. Peaked at 5,000+ concurrent users during exam seasons with zero paid acquisition.",
   problem:
     "Students relied on scattered sources like WhatsApp groups, Google Drive links, and seniors for study materials, making it time-consuming and inefficient to find reliable resources—especially during exams.",
   detailedDescription:
-    "StudyHub is an all-in-one academic resource platform designed to simplify how students access study materials across multiple engineering disciplines.\n\nI conceptualized and structured the platform to centralize notes, previous year papers, and key resources for departments including Computer Science, Electronics, Electrical, Mechanical, Civil, and IT. The goal was to reduce friction in exam preparation by providing a single, reliable destination for all academic content.",
+    "StudyHub is an all-in-one academic resource platform designed to simplify how students access study materials across multiple engineering disciplines.\n\nI conceptualized and structured the platform to centralize notes, previous year papers, and key resources for departments including Computer Science, Electronics, Electrical, Mechanical, Civil, and IT. The goal was to reduce friction in exam preparation by providing a single, reliable destination for all academic content. \n\n What validated the product most was its usage pattern — traffic spiked dramatically during exam seasons, peaking at 5,000+ concurrent users, proving genuine student reliance on the platform when it mattered most. This organic, need-driven adoption with zero paid acquisition demonstrated strong product-market fit",
   outcomeBullets: [
     "Centralized resources across 6+ engineering departments",
     "Reduced time spent searching for study materials during exams",
@@ -204,7 +206,7 @@ export const projectsData: Project[] = [
   kpi: "6+",
   kpiLabel: "Departments Covered",
   kpiValue: "Centralized Resource Platform",
-  demoUrl: "",
+  demoUrl: "https://studyhub.vinnovateit.com",
   youtubeUrl: "",
 },  
 {
@@ -248,11 +250,11 @@ export const projectsData: Project[] = [
   image: "/projects/social-jumbos.png",
   imageAlt: "Social Jumbos – Event Organization & Community Platform",
   briefDescription:
-    "Designed and built Social Jumbos, a campus-focused platform enabling students to discover, organize, and participate in events with an integrated messaging system, university-specific spaces, and secure institutional login and verification.",
+    "Designed and built Social Jumbos, a platform enabling youth & students to discover, organize, and participate in interest based events with an integrated messaging system, university-specific spaces, and secure institutional login and verification.",
   problem:
-    "University students lacked a dedicated platform to organize and discover campus events. Existing general-purpose tools like Facebook Groups or WhatsApp lacked institutional context, verified identity, and a structured space for university-specific communities — leading to fragmented communication and low event participation.",
+    "Young individuals & University students lacked a dedicated platform to organize and discover self-organized campus events. Existing general-purpose tools like Facebook Groups, WhatsApp or posters lacked institutional context, verified identity, and a structured space for university-specific communities — leading to fragmented communication and low event participation.",
   detailedDescription:
-    "Social Jumbos is a community and event platform built specifically for university students. The platform enables students to create and join events, coordinate with participants through an integrated messaging system, and engage within dedicated university-specific spaces.\n\nTo ensure trust and relevance, I designed and implemented a university-based authentication and verification system that validates institutional email addresses, restricting access to verified students and maintaining community integrity. The platform bridges the gap between social connection and campus life by giving students a structured, identity-verified space to build communities around shared interests and events.",
+    "Social Jumbos is a community and event platform built for young adults and university students. The platform enables students to create and join self-organized interest based events, coordinate with participants through an integrated messaging system, and engage within dedicated university-specific spaces.\n\nTo ensure trust and relevance, I designed and implemented a university-based authentication and verification system that validates institutional email addresses, restricting access to verified students and maintaining community integrity. The platform bridges the gap between social connection and campus life by giving students a structured, identity-verified space to build communities around shared interests and events.",
   outcomeBullets: [
     "Built end-to-end event discovery and organization platform for university students",
     "Integrated real-time messaging system for event participants and community members",
@@ -287,11 +289,12 @@ export const projectsData: Project[] = [
   briefDescription:
     "Designed and developed FoldPack Handle, a compact, ergonomic load-distribution solution with an integrated reusable bag, improving carrying comfort and targeting urban grocery users.",
   problem:
-    "Urban shoppers, especially students and professionals, often carry multiple grocery bags, leading to hand strain, discomfort, and inefficient load distribution. Existing solutions either lacked portability or failed to address ergonomic pain points effectively.",
+    "Urban shoppers, often carry multiple grocery bags, leading to hand strain, discomfort, and inefficient load distribution. Existing solutions either lacked portability or failed to address ergonomic pain points effectively.",
   detailedDescription:
-    "As part of a product development initiative, I led the conceptualization and strategic development of FoldPack Handle—an ergonomic, pocket-sized solution designed to improve the grocery carrying experience.\n\nThe product features a reinforced polymer handle with multiple bag hooks and an integrated foldable reusable bag, enabling users to distribute weight efficiently while maintaining portability. I worked on defining the product design, positioning, pricing strategy, and go-to-market approach, focusing on urban consumers and high-frequency grocery shoppers.",
+    "As part of a product development initiative, I led the conceptualization and strategic development of FoldPack Handle—an ergonomic, pocket-sized solution designed to improve the grocery carrying experience.\n\nThe product features a reinforced polymer handle with multiple bag hooks, an integrated foldable reusable bag with a shoulder-strap carrying mode, enabling users to distribute weight efficiently while maintaining portability. I worked on defining the product design, positioning, pricing strategy, and go-to-market approach, focusing on urban consumers and high-frequency grocery shoppers.",
   outcomeBullets: [
     "Defined a scalable consumer product with ~61% contribution margin",
+    "Unique standout market feature of Dual carry-mode-> Hand & Shoulder with a built-in high quality reusable bag",
     "Identified a target market of 3–5M urban early adopers in the U.S.",
     "Projected first-year sales of ~18,000 units based on market analysis",
     "Positioned product competitively against alternatives like tote bags and handle grips",

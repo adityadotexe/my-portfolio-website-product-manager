@@ -11,7 +11,7 @@ import { Toaster } from "sonner"
 export const metadata: Metadata = {
   title: "Aditya Kumar Singh - Product Manager",
   description:
-    "AI Product Manager focused on data-driven growth and user delight. Experience shipping products that scale.",
+    "Product Manager focused on data-driven growth and user delight. Experience shipping products that scale.",
   generator: "v0.app",
   icons: {
     icon: "/favicon.ico",

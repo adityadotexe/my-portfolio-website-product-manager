@@ -25,7 +25,7 @@ export const heroContent = {
   builder: {
     headline: "I'm Aditya, shipping AI that",
     typewriterWords: ["works in production", "scales globally", "runs in <500ms", "users trust"],
-    tagline: "Full-Stack AI Engineer with 14+ shipped products, from RAG pipelines to multi-agent swarms, building production systems, not prototypes.",
+    tagline: "Full-Stack AI Engineer with 10+ shipped products, from RAG pipelines to multi-agent swarms, building production systems, not prototypes.",
   },
   consultant: {
     headline: "I'm Aditya, automating workflows that",
@@ -88,7 +88,7 @@ export const kpiContent = {
     quickStats: [
       { label: "Years Experience", value: "2+" },
       { label: "Users Reached", value: "50K+" },
-      { label: "AI Products Shipped", value: "14+" },
+      { label: "AI Products Shipped", value: "10+" },
       { label: "Clients Served", value: "20+" },
     ],
     impactKpis: [
@@ -105,7 +105,7 @@ export const kpiContent = {
     subheader: "Performance metrics from production systems",
     quickStats: [
       { label: "Years Experience", value: "2+" },
-      { label: "AI Products Shipped", value: "14+" },
+      { label: "AI Products Shipped", value: "10+" },
       { label: "MCP Servers Built", value: "3+" },
       { label: "Hackathon Wins", value: "2" },
     ],
@@ -727,37 +727,54 @@ Use cases: Social media content, advertising, book covers, movie posters. Value:
 export const journeyContent = {
   pm: {
     "100x-engineers": [
-      "Shipped 4 production AI products in 6 months as elite cohort member (Top 20), demonstrating rapid idea-to-MVP execution",
-      "Built multi-agent systems using OpenAI Agents SDK, Google ADK, LangGraph, and Agno framework for production use cases",
-      "Developed MCP servers enabling AI tool integration across Claude Desktop, ChatGPT, and Cursor—achieved viral adoption on Reddit",
-      "Won 1st Runner-Up at hackathon with Lecture Lens (Educational RAG) reducing information retrieval from hours to seconds",
+      "Shipped 4 production Agentic AI products in 6 months, demonstrating rapid idea-to-MVP execution, serving budget-constrained SMBs",
+      "Identified and resolved release bottlenecks improving engineering development throughput",
+      "Redesigned sprint coordination processes across cross-functional engineering teams",
+      "Managed JIRA/Confluence workflows, sprint planning, and release tracking end-to-end",
+      "Platform navigates 9,000+ cybersecurity solutions to match SMBs by profile, need, and budget",
     ],
     "hunch-apm": [
-      "Increased user engagement by 200% and 7-day retention by 86% by designing MBTI-based personality matching system",
-      "Generated $1,500 monthly revenue from first month (30% boost to total) via SEO-optimized web onboarding funnel",
-      "Improved session time by 100% and response rates by 180% by fine-tuning GPT-4o on 450+ curated conversation examples",
-      "Reduced campaign launch time from 2 days to 5 minutes via Poll Promotion Engine, eliminating 85% of manual work",
-      "Scaled user research capacity 25x (2 → 50+ daily interviews) while reducing costs by 90% via AI voice agent",
-      "Built Retool analytics dashboard, saving $1K+/monthly in SaaS costs and 15+ hours weekly of manual analysis",
+      "Onboarded 50+ graduate and undergraduate participants into the ProdX product community",
+      "Leading recruitment and screening interviews to build a high-quality cohort of aspiring PMs",
+      "Planning inaugural product-focused events — workshops, industry talks, and PM career panels",
+      "Organizing discussions on the future of Product Management, AI's impact on PM roles, and career pathways",
+      "Building community infrastructure connecting aspiring PMs with industry knowledge and peer networks",
     ],
     "hunch-content": [
-      "Orchestrated content strategy during app transition from polling to dating, maintaining engagement during pivot",
-      "Managed team of 6 members through recruitment, onboarding, and performance management, improving output by 60%",
-      "Reduced D0 uninstall rate by 35% through optimized onboarding polls and improved new user content experience",
-      "Ran content experiments for female categories, achieving 80% increase in publications and improved gender balance",
-      "Conducted 100+ ground-up user research interviews across colleges to validate polling concept",
+      "Co-developed NTPC’s Enterprise AI chatbot ‘Jyoti,’ enabling fast and secure enterprise data access for 20,000+ employees.",
+      "Reduced manual information retrieval across a large distributed org",
+      "Built at India's largest power utility company",
     ],
     "plotx": [
       "Improved organic traffic by 50% and drove 3,000+ new user signups monthly via 30+ SEO-rich blogs",
-      "Conducted 100+ research interviews validating polling concepts that informed Hunch's product strategy",
+      "Improved platform scalability to handle 2x increase in user traffic",
+      "Reduced media load latency by ~30% through optimized storage architecture",
+      "Enabled reliable storage and retrieval of high-volume content via AWS S3",
+      "Upgraded backend functionality for the admin panel and authored API documentation with Swagger API for faster processing.",
+      "Developed the backend architecture for a creator tool, integrating AWS EC2 and S3 ensuring scalability and data management.",
     ],
     "inurture": [
-      "Improved course completion rates by 20% and student satisfaction by 15% via multi-format content delivery",
-      "Created academic courses for Indian universities, impacting 5,000+ learners across AI, Finance, Law, and Cybersecurity",
+      "Defined product roadmap and feature requirements for an AI-enabled secondary consultation platform serving 500+ patients per month.",
+      "Deployed an AI powered WhatsApp navigator using NLP models automating end-to-end patient guidance leading to a 15% reduction in wait times.",
+      "Improved session time by 100% and response rates by 180% by fine-tuning GPT-4o on 450+ curated conversation examples",
+      "Conducted user discovery interviews with 30+ oncologists to design product workflows, bottlenecks and pricing models.",
     ],
     "freelance": [
-      "Reached 5M+ readers by ghostwriting 300+ thought-leadership articles for global clients including Blockchain Council",
-      "Secured long-term partnerships with 80% of clients, increasing audience engagement by 30%",
+    "Facilitated weekly mental health & wellness peer groups of 5–10 students, creating psychologically safe spaces for open discussion",
+    "Organized structured workshops and wellness sessions focused on stress management, emotional wellbeing, and community connection",
+    "Designed and led engaging activities and programs to foster inclusion, peer support, and a sense of belonging on campus",
+    "Conducted regular check-ins to monitor group dynamics and proactively address participant needs",
+    ],
+    "gen-sec": [
+    "Coordinated Vinhack'23, a national hackathon with 1,800+ participants, managing end-to-end logistics, technical reviews, and stakeholder communication",
+    "Revamped internal admin panel to monitor 15,000+ users, driving a 20% increase in data-driven decisions across product and engineering teams",
+    "Defined organizational strategy and led recruitment and mentorship of 70+ members, fostering a culture of innovation and product thinking",
+    "Managed financial operations as Treasurer — overseeing budgets, vendor negotiations, and expense tracking resulting in 20% annual cost savings",
+    ],
+    "director": [
+    "Led operational improvement initiatives for hostel dining services serving 30,000+ on-campus students, analyzing feedback from 75+ residents to identify key process inefficiencies",
+    "Created a digitized feedback and reporting system enabling administrators to prioritize improvements — collected 200+ responses in the first month alone",
+    "Translated raw resident feedback into actionable operational changes, demonstrating end-to-end product thinking in a real-world service environment",
     ],
   },
   builder: {
@@ -940,7 +957,7 @@ export const testimonialsContent: Record<Persona, Testimonial[]> = {
       name: "Sam H Liggero",
       title: "Ex-Corporate VP & Program Fellow at Polaroid Corporation",
       quote:
-        "Aditya rose to the challenge with dedication and endless ideas. He wasn't just a wordsmith; he was a creative architect who shaped product direction through data-driven insights. His influence extended beyond his own work, shaping the content team through guidance and mentorship. Any team looking to innovate and execute at speed would be fortunate to have him.",
+        "Aditya rose to the challenge with dedication and endless ideas. He isn't just a wordsmith; he is a creative architect who shaped product direction through data-driven insights. His influence extended beyond his own work, shaping the team through guidance and mentorship. Any team looking to innovate and execute at speed would be fortunate to have him.",
       linkedin: "https://www.linkedin.com/in/sam-liggero-6b6138/",
     },
     {
