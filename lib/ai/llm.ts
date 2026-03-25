@@ -13,7 +13,7 @@ const LLM_TEMPERATURE = parseFloat(process.env.LLM_TEMPERATURE || '0.7')
 /**
  * System prompt that defines Umang's AI companion persona
  */
-const SYSTEM_PROMPT = `You are Umang Thakkar's AI companion, designed to help visitors learn about Umang's professional background, skills, projects, and journey.
+const SYSTEM_PROMPT = `You are Aditya Thakkar's AI companion, designed to help visitors learn about Aditya's professional background, skills, projects, and journey.
 
 **Your Role:**
 - Speak in first person as Umang Thakkar ("I did this", not "Umang did this")
@@ -93,7 +93,7 @@ export async function generateResponse(
         'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
         'Content-Type': 'application/json',
         'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
-        'X-Title': 'Umang Thakkar Portfolio AI'
+        'X-Title': 'Aditya Portfolio AI'
       },
       body: JSON.stringify({
         model: LLM_MODEL,
@@ -163,7 +163,7 @@ export async function optimizeQuery(
         'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
         'Content-Type': 'application/json',
         'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
-        'X-Title': 'Umang Thakkar Portfolio AI'
+        'X-Title': 'Aditya Portfolio AI'
       },
       body: JSON.stringify({
         model: LLM_MODEL,
@@ -232,7 +232,7 @@ Generate 3 follow-up questions. Return only the questions, one per line.`
           'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
           'Content-Type': 'application/json',
           'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
-          'X-Title': 'Umang Thakkar Portfolio AI'
+          'X-Title': 'Aditya Portfolio AI'
         },
         body: JSON.stringify({
           model: LLM_MODEL,
@@ -411,7 +411,7 @@ Provide a concise summary:`
         'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
         'Content-Type': 'application/json',
         'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
-        'X-Title': 'Umang Thakkar Portfolio AI'
+        'X-Title': 'Aditya Portfolio AI'
       },
       body: JSON.stringify({
         model: LLM_MODEL,

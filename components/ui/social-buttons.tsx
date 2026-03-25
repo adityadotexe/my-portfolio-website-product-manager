@@ -25,7 +25,7 @@ export function LinkedInButton({ className = "", enableSound = true }: CommonPro
   if (shouldReduceMotion) {
     return (
       <a
-        href="https://www.linkedin.com/in/umang-thakkar-90a4a5164/"
+        href="https://www.linkedin.com/in/itsadityakumarsingh/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="LinkedIn"
@@ -43,7 +43,7 @@ export function LinkedInButton({ className = "", enableSound = true }: CommonPro
 
   return (
     <motion.a
-      href="https://www.linkedin.com/in/umang-thakkar-90a4a5164/"
+      href="https://www.linkedin.com/in/itsadityakumarsingh/"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="LinkedIn"
@@ -80,7 +80,7 @@ export function GitHubButton({ className = "", enableSound = true }: CommonProps
   if (shouldReduceMotion) {
     return (
       <a
-        href="https://github.com/Umang00"
+        href="https://github.com/adityadotexe"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="GitHub"
@@ -99,7 +99,7 @@ export function GitHubButton({ className = "", enableSound = true }: CommonProps
 
   return (
     <motion.a
-      href="https://github.com/Umang00"
+      href="https://github.com/adityadotexe"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="GitHub"

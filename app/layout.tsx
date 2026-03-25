@@ -9,10 +9,14 @@ import "./globals.css"
 import { Toaster } from "sonner"
 
 export const metadata: Metadata = {
-  title: "Umang Thakkar - AI Product Manager",
+  title: "Aditya Kumar Singh - Product Manager",
   description:
-    "AI Product Manager focused on data-driven growth and user delight. 6+ years shipping products that scale.",
+    "AI Product Manager focused on data-driven growth and user delight. Experience shipping products that scale.",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -4,8 +4,8 @@ import { Resend } from "resend"
 const resend = new Resend(process.env.RESEND_API_KEY)
 
 // Optional overrides so you can change without code edits
-const FROM = process.env.RESEND_FROM || "Umang Thakkar <onboarding@resend.dev>"
-const TO = process.env.RESEND_TO || "umangthakkar005@gmail.com"
+const FROM = process.env.RESEND_FROM || "Aditya Kumar Singh <onboarding@resend.dev>"
+const TO = process.env.RESEND_TO || "itsadisingh003@gmail.com"
 
 export async function POST(request: NextRequest) {
   try {

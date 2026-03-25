@@ -36,7 +36,7 @@ export async function POST(request: NextRequest) {
     // Test all documents
     if (testAll) {
       const documentMap: Record<string, 'resume' | 'linkedin' | 'journey' | 'github' | 'generic'> = {
-        'Umang_Thakkar_PM_Master_Resume.pdf': 'resume',
+        'Aditya_Kumar_Singh_PM_Master_Resume.pdf': 'resume',
         'LinkedIn.pdf': 'linkedin',
         'cohort_journey_fy-2025-2026.pdf': 'journey',
         // Add more as needed
@@ -142,7 +142,7 @@ export async function GET(request: NextRequest) {
         }
       },
       available: {
-        resume: 'Umang_Thakkar_PM_Master_Resume.pdf',
+        resume: 'Aditya_Kumar_Singh_PM_Master_Resume.pdf',
         linkedin: 'LinkedIn.pdf',
         journey: 'cohort_journey_fy-2025-2026.pdf'
       }

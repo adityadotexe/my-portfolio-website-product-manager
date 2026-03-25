@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils"
 
 export function ClientLogos({
   speedSeconds = 18,
-  rowHeight = 80,
+  rowHeight = 110,
   rowHeightMd = 96,
   rowHeightLg = 110,
 }: {
@@ -26,10 +26,10 @@ export function ClientLogos({
   useEffect(() => {
     const el = containerRef.current
     if (!el) return
-    const io = new IntersectionObserver((entries) => setPlay(entries.some((e) => e.isIntersecting)), {
-      rootMargin: "0px 0px -25% 0px",
-      threshold: 0.1,
-    })
+    const io = new IntersectionObserver(
+      (entries) => setPlay(entries.some((e) => e.isIntersecting)),
+      { rootMargin: "0px 0px -25% 0px", threshold: 0.1 }
+    )
     io.observe(el)
     return () => io.disconnect()
   }, [])
@@ -38,10 +38,10 @@ export function ClientLogos({
     <section aria-labelledby="trusted-by-heading" className="py-14 md:py-18 lg:py-22">
       <div className="text-center mb-14 md:mb-16">
         <h2 id="trusted-by-heading" className="text-4xl md:text-5xl font-extrabold tracking-tight">
-          Trusted By
+          Experience &amp; Credentials
         </h2>
         <p className="mt-4 text-lg md:text-xl text-muted-foreground">
-          Companies I&apos;ve helped build and scale products
+          Companies · Institutions · Certifications · Awards
         </p>
       </div>
 
@@ -62,7 +62,6 @@ export function ClientLogos({
       >
         <ul
           className={cn(
-            // slightly reduced base gaps
             "logos-track flex items-center gap-8 md:gap-10 lg:gap-12 w-max",
             play ? "animate-marquee" : "",
           )}

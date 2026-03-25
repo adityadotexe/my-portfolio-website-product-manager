@@ -9,7 +9,7 @@ interface CalendlyModalProps {
 
 export function CalendlyModal({ isOpen, onClose }: CalendlyModalProps) {
   const calendlySrc =
-    "https://calendly.com/umangthakkar005/30min" +
+    "https://calendly.com/itsadisingh003/30min" +
     "?hide_event_type_details=1&hide_gdpr_banner=1" +
     "&primary_color=16a34a&background_color=0b0b0b&text_color=ffffff"
 
@@ -20,13 +20,13 @@ export function CalendlyModal({ isOpen, onClose }: CalendlyModalProps) {
         className="w-[98vw] sm:max-w-[1280px] h-[92vh] p-0 overflow-hidden"
       >
         <DialogHeader className="px-6 pt-6 pb-3">
-          <DialogTitle>Schedule a Call with Umang</DialogTitle>
+          <DialogTitle>Schedule a Call with Aditya</DialogTitle>
         </DialogHeader>
 
         {/* Calendly owns the rest */}
         <iframe
           src={calendlySrc}
-          title="Schedule a call with Umang"
+          title="Schedule a call with Aditya"
           className="h-[calc(92vh-60px)] w-full"
           allow="clipboard-write; fullscreen"
           loading="eager"

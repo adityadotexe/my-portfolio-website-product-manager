@@ -31,40 +31,40 @@ const get100xTitle = (persona: string): string => {
 
 const getTimelineItems = (persona: string): TimelineItem[] => [
   {
-    title: get100xTitle(persona),
-    company: "100x Engineers Cohort",
-    date: "July 2025 – Present",
-    roleId: "100x-engineers",
-  },
-  {
-    title: "Associate Product Manager",
-    company: "Hunch (Dating & Social App)",
-    date: "Oct 2023 – Jun 2025",
+    title: "Operations Manager",
+    company: "ProdX- Product Collective",
+    date: "Jan 2026 – Present",
     roleId: "hunch-apm",
   },
   {
-    title: "Content Strategist",
-    company: "Hunch (Polling App)",
-    date: "Nov 2022 – Sep 2023",
-    roleId: "hunch-content",
+    title: "Product Manager Intern",
+    company: "Value Aligners",
+    date: "Oct 2025 – March 2026",
+    roleId: "100x-engineers",
   },
   {
-    title: "Content Writer",
-    company: "PlotX (Crypto Gaming Platform)",
-    date: "Jun 2022 – Oct 2022",
-    roleId: "plotx",
-  },
-  {
-    title: "Content Writer",
-    company: "iNurture Education Solutions (EdTech)",
-    date: "Feb 2022 – Jun 2022",
+    title: "Product Manager Intern",
+    company: "JC Foundation",
+    date: "July 2025 – Oct 2025",
     roleId: "inurture",
   },
   {
-    title: "Content Writer",
-    company: "Freelance",
-    date: "Nov 2021 – May 2022",
+    title: "Project Facilitator",
+    company: "Tufts University Community Health Department",
+    date: "Oct 2025 – March 2026",
     roleId: "freelance",
+  },
+  {
+    title: "Software Developer Intern",
+    company: "NTPC LTD.",
+    date: "Oct 2023 – Nov 2023",
+    roleId: "hunch-content",
+  },
+  {
+    title: "Full Stack Developer",
+    company: "Scrollify",
+    date: "Feb 2023 – Nov 2023",
+    roleId: "plotx",
   },
 ]
 

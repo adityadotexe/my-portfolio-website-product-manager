@@ -2,41 +2,104 @@ export type ClientLogo = {
   name: string
   src: string
   href?: string
-  /** keep original brand color (don’t grayscale) */
+  /** keep original brand color (don't grayscale) */
   keepColor?: boolean
   /** visual tweak without re-exporting assets */
   scale?: number
 }
 
 export const CLIENT_LOGOS: ClientLogo[] = [
-  { name: "The Economic Times", src: "/logos/economic-times.png", href: "https://economictimes.indiatimes.com" },
-  { name: "Decentraland", src: "/logos/decentraland.png", href: "https://decentraland.org", scale: 2.2 },
-
-  // keep brand color
-  { name: "1inch", src: "/logos/1inch.png", href: "https://1inch.io", keepColor: true, scale: 1.5 },
-
-  { name: "Zayn & Myza", src: "/logos/zayn-myza.png", scale: 1 },
-  { name: "Hunch", src: "/logos/hunch.png", scale: 2.0 },
-
-  // keep brand color
+  // Companies & Institutions
   {
-    name: "Niva Bupa Life Insurance",
-    src: "/logos/niva-bupa-life-insurance.png",
-    href: "https://www.nivabupa.com/",
+    name: "Tufts University Community Health Department",
+    src: "/logos/tufts.jpeg",
+    href: "https://as.tufts.edu/commhealth/",
     keepColor: true,
-    scale: 1.2
+    scale: 1.2,
   },
-
-  { name: "PlotX", src: "/logos/plotx.png", href: "https://plotx.io", scale: 1.04 },
-
-  // keep brand color
   {
-    name: "Blockchain Council",
-    src: "/logos/blockchain-council.png",
-    href: "https://www.blockchain-council.org",
+    name: "Value Aligners",
+    src: "/logos/value-aligners.jpg",
+    href: "https://www.valuealigners.com",
     keepColor: true,
-    scale: 1.2
+    scale: 1.2,
   },
-
-  { name: "Prolitus", src: "/logos/prolitus.svg", href: "https://www.prolitus.com", scale: 1 },
+   {
+    name: "AIP Publishing",
+    src: "/logos/aip.jpeg",
+    href: "https://pubs.aip.org/aip/acp/article-abstract/3258/1/020012/3345242/Enhancing-software-development-efficiency-A-study?redirectedFrom=fulltext",
+    keepColor: true,
+    scale: 1.0,
+  },
+     {
+    name: "Product Collective",
+    src: "/logos/prodx.png",
+    href: "https://www.instagram.com/tufts_tpc_prodx/",
+    keepColor: true,
+    scale: 1.0,
+  },
+   {
+    name: "Tufts University",
+    src: "/logos/tufts-uni.jpg",
+    href: "https://engineering.tufts.edu",
+    keepColor: true,
+    scale: 1.2,
+  },
+  {
+    name: "JC Foundation",
+    src: "/logos/jc-foundation.jpeg",
+    href: "https://www.jarurat.care",
+    keepColor: true,
+    scale: 1.0,
+  },
+  {
+    name: "NTPC Ltd",
+    src: "/logos/ntpc.jpg",
+    href: "https://www.ntpc.co.in",
+    keepColor: true,
+    scale: 1.2,
+  },
+  {
+    name: "Scrollify",
+    src: "/logos/scrollify.jpg",
+    href: "https://app.scrollify.in/login",
+    keepColor: true,
+    scale: 1.2,
+  },
+  {
+    name: "VinnovateIT",
+    src: "/logos/vinnovateit.png",
+    href: "https://vinnovateit.com",
+    keepColor: true,
+    scale: 1.2,
+  },
+  {
+    name: "Vellore Institute of Technology",
+    src: "/logos/vit.png",
+    href: "https://vit.ac.in",
+    keepColor: true,
+    scale: 2.0,
+  },
+  // Certifications & Awards
+  {
+    name: "Certified Scrum Product Owner – Scrum Alliance",
+    src: "/logos/scrum-alliance.png",
+    href: "https://www.scrumalliance.org",
+    keepColor: true,
+    scale: 1.0,
+  },
+  {
+    name: "Certified Ethical Hacker – EC-Council",
+    src: "/logos/ec-council.png",
+    href: "https://www.eccouncil.org",
+    keepColor: true,
+    scale: 1.0,
+  },
+  {
+    name: "1st Runner-Up – National Civic-Tech Hackathon, IIM Ahmedabad",
+    src: "/logos/iima.png",
+    href: "https://ciie.co",
+    keepColor: true,
+    scale: 1.2,
+  },
 ]

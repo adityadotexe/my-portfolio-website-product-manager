@@ -27,10 +27,10 @@ interface ChatOverlayProps {
 }
 
 const STARTER_QUESTIONS = [
-  "What did Umang work on at Hunch?",
-  "Tell me about Umang's journey and career decisions",
-  "What technical projects has Umang built?",
-  "What skills has Umang developed from his experiences?",
+  "What did Aditya work on at Hunch?",
+  "Tell me about Aditya's journey and career decisions",
+  "What technical projects has Aditya built?",
+  "What skills has Aditya developed from his experiences?",
 ]
 
 export function ChatOverlay({ open, onClose, initialQuery }: ChatOverlayProps) {
@@ -430,7 +430,7 @@ export function ChatOverlay({ open, onClose, initialQuery }: ChatOverlayProps) {
             <div>
               <h1 className="text-lg font-semibold">AI Companion</h1>
               <p className="text-sm text-muted-foreground">
-                Ask me anything about Umang
+                Ask me anything about Aditya
               </p>
             </div>
           </div>
@@ -488,7 +488,7 @@ export function ChatOverlay({ open, onClose, initialQuery }: ChatOverlayProps) {
               >
                 <h2 className="text-2xl font-semibold">Welcome!</h2>
                 <p className="text-muted-foreground max-w-md">
-                  I'm Umang's AI companion. I can answer questions about his
+                  I'm Aditya's AI companion. I can answer questions about his
                   experience, projects, skills, and journey. Try asking me
                   something!
                 </p>
@@ -505,7 +505,7 @@ export function ChatOverlay({ open, onClose, initialQuery }: ChatOverlayProps) {
                   <div className="flex items-start gap-2">
                     <span className="text-amber-600 dark:text-amber-400 mt-0.5">⚠️</span>
                     <p className="flex-1">
-                      <strong className="font-medium">Heads up:</strong> Umang's build velocity is intense. I try to stay current, but he often ships quicker than I can index.
+                      <strong className="font-medium">Heads up:</strong> Aditya's build velocity is intense. I try to stay current, but he often ships quicker than I can index.
                     </p>
                   </div>
                 </div>
@@ -749,7 +749,7 @@ export function ChatOverlay({ open, onClose, initialQuery }: ChatOverlayProps) {
                     ? "Generating response..."
                     : listening
                     ? "Listening..."
-                    : "Ask a question about Umang..."
+                    : "Ask a question about Aditya..."
                 }
                 disabled={isLoading || listening}
                 className={cn(

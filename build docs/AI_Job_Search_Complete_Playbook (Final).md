@@ -1,7 +1,7 @@
 # THE COMPLETE AI JOB SEARCH PLAYBOOK
 ## Your Definitive 90-Day Strategy to Land an AI Engineering/Product Role
 
-**Created for:** Umang - AI Product Engineer  
+**Created for:** Aditya - AI Product Engineer  
 **Last Updated:** January 25, 2026  
 **Expected Timeline:** 8-12 weeks with consistent execution  
 **Success Formula:** 100 targeted applications → 20 responses → 10 interviews → 2-3 offers
@@ -626,7 +626,7 @@ Would love to show you a quick demo - 15 minutes?
 Not looking for anything formal - just think I can help you scale faster post-Shark Tank.
 
 Best,
-Umang
+Aditya
 [Portfolio Link]
 ```
 
@@ -741,7 +741,7 @@ Available for project-based or retainer work. Can start with one pilot client to
 Portfolio: [link]
 
 Best,
-Umang
+Aditya
 ```
 
 ---
@@ -961,7 +961,7 @@ Given your network and board positions, could you introduce me to 2-3 founders h
 I've attached a one-pager with project details.
 
 A simple intro like:
-"Umang - AI Product Engineer who shipped Fashion Street AI, Food Compliance mobile app, and MockMate voice agent - available immediately"
+"Aditya - AI Product Engineer who shipped MessIT, Food Compliance mobile app, and Social Jumbos"
 would be perfect.
 
 Specifically interested in:
@@ -972,7 +972,7 @@ Specifically interested in:
 Happy to adjust the ask or provide more context!
 
 Thanks so much,
-Umang
+Aditya
 
 P.S. Available for a quick call if easier to discuss!
 ```
@@ -996,7 +996,7 @@ Provide:
 ```
 Hi [Founder],
 
-I'd like to introduce you to Umang - an AI Product Engineer from the 100x Engineers cohort.
+I'd like to introduce you to Aditya - an AI Product Engineer from the 100x Engineers cohort.
 
 He's built some impressive products:
 • Fashion Street AI (multilingual style reports, reduced time from 2hrs to 5min)
@@ -1053,7 +1053,7 @@ Calendar: [link]
 Portfolio: [link]
 
 Best,
-Umang
+Aditya
 [Phone]
 ```
 
@@ -1078,7 +1078,7 @@ Still very interested in discussing [Company] - would 15 minutes work?
 Calendar: [link]
 
 Best,
-Umang
+Aditya
 ```
 
 ---
@@ -1135,7 +1135,7 @@ Not asking for a referral yet - just gathering info at this stage!
 Coffee chat this week? [Calendar link]
 
 Best,
-Umang
+Aditya
 Portfolio: [link]
 ```
 
@@ -1216,7 +1216,7 @@ I've attached a one-pager with my recent AI projects.
 Calendar: [link]
 
 Thanks!
-Umang
+Aditya
 Portfolio: [link]
 ```
 
@@ -1243,7 +1243,7 @@ Given your experience at [Company], I'd love your advice on:
 15-min call? [Calendar link]
 
 Thanks!
-Umang
+Aditya
 Portfolio: [link]
 ```
 
@@ -1265,7 +1265,7 @@ Calendar: [link]
 Portfolio: [link]
 
 Best,
-Umang
+Aditya
 ```
 
 **STEP 3: What If The Event Was >2 Weeks Ago?**
@@ -1283,7 +1283,7 @@ I meant to reach out sooner after the AWS AI Conclave but got caught up shipping
 Would still love to connect if you're open to it.
 
 Best,
-Umang
+Aditya
 ```
 
 ---
@@ -1293,7 +1293,7 @@ Umang
 **Who to Target:**
 - Suppliers who also supply to tech companies
 - Customers who work in tech
-- Business associations Umang's family is part of
+- Business associations Aditya's family is part of
 - Adjacent businesses (if any have tech teams)
 
 **Why This Works:**
@@ -1317,7 +1317,7 @@ Do you know anyone in tech/startups who might be hiring for AI Product Engineers
 Even just an introduction to someone in your network in tech would be hugely helpful.
 
 Thanks so much!
-Umang
+Aditya
 
 P.S. If you're ever curious about the AI system I built for Fashion Street, happy to show you a demo!
 ```
@@ -1353,7 +1353,7 @@ Calendar: [link]
 Portfolio: [link]
 
 Best,
-Umang
+Aditya
 ```
 
 ---
@@ -1495,7 +1495,7 @@ Portfolio: [link]
 GitHub: [link]
 
 Thanks!
-Umang"
+Aditya"
 ```
 
 **Your Outreach Message (Twitter DM):**
@@ -1530,7 +1530,7 @@ Would love to build for Vapi full-time.
 Portfolio: [link]
 
 Best,
-Umang
+Aditya
 ```
 
 **Why This Works (Near 100% Conversion):**
@@ -1601,7 +1601,7 @@ Calendar: [link]
 Portfolio: [link]
 
 Best,
-Umang
+Aditya
 [Phone]
 ```
 
@@ -1626,7 +1626,7 @@ Calendar: [link]
 Portfolio: [link]
 
 Best,
-Umang
+Aditya
 ```
 
 **Why This Works:**
@@ -1659,7 +1659,7 @@ Exploring AI Product Engineer roles - would love to chat about building on top o
 Portfolio: [link]
 
 Best,
-Umang
+Aditya
 ```
 
 ---
@@ -1710,7 +1710,7 @@ I'm exploring [role type] roles and [Company] is a great fit because [specific r
 15 min? [Calendar link]
 
 Best,
-Umang
+Aditya
 Portfolio: [link]
 ```
 
@@ -1740,7 +1740,7 @@ Would love to discuss how you're approaching scaling challenges.
 Portfolio: [link]
 
 Best,
-Umang
+Aditya
 ```
 
 **Why This Works:**
@@ -1877,7 +1877,7 @@ Still interested in chatting if you have 15 min!
 Calendar: [link]
 
 Best,
-Umang
+Aditya
 ```
 
 **Third Touch (Day 12):**
@@ -1894,7 +1894,7 @@ Key innovation: [What's unique about it]
 If timing doesn't work now, totally understand. Would love to stay in touch for future!
 
 Best,
-Umang
+Aditya
 Portfolio: [link]
 ```
 
@@ -2889,7 +2889,7 @@ Portfolio: [link]
 GitHub: [link]
 
 Best regards,
-Umang [Last Name]
+Aditya [Last Name]
 [Phone]
 [Email]
 [LinkedIn]
@@ -2915,7 +2915,7 @@ Portfolio: [link]
 GitHub: [link]
 
 Best regards,
-Umang [Last Name]
+Aditya [Last Name]
 [Phone] | [Email] | [LinkedIn]
 ```
 
@@ -2946,7 +2946,7 @@ Would love to discuss how my experience with [specific relevant tech/domain] cou
 Available for a call anytime this week.
 
 Best,
-Umang
+Aditya
 Portfolio: [link]
 ```
 
@@ -2968,7 +2968,7 @@ Quick highlights:
 If timing doesn't work now, would love to stay in touch for future opportunities.
 
 Best,
-Umang
+Aditya
 Portfolio: [link]
 ```
 
@@ -3217,7 +3217,7 @@ I've attached:
 If there's a good match, happy to discuss further!
 
 Best,
-Umang
+Aditya
 [Phone]
 [Portfolio]
 ```
@@ -3273,7 +3273,7 @@ Are you currently placing for any companies that might be a fit?
 I've attached a one-page project summary.
 
 Thanks,
-Umang
+Aditya
 [Contact Info]
 [Portfolio]
 ```
@@ -3556,7 +3556,7 @@ If pilot doesn't meet metrics:
 
 ABOUT ME
 
-I'm Umang, an AI Product Engineer who ships complete products.
+I'm Aditya, an AI Product Engineer who ships complete products.
 
 Recent projects:
 • Fashion Street AI - [one-line outcome]
@@ -3582,7 +3582,7 @@ Phone: [phone]
 Looking forward to building this with you!
 
 Best,
-Umang
+Aditya
 ```
 
 ---
@@ -3696,7 +3696,7 @@ I built similar for [relevant project]: [one-line outcome]
 Pilot proposal attached.
 
 Best,
-Umang
+Aditya
 [Portfolio]
 ```
 
@@ -4113,7 +4113,7 @@ Would love to chat for 15 min.
 Calendar: [link]
 
 Best,
-Umang
+Aditya
 [Portfolio]
 ```
 
@@ -4133,7 +4133,7 @@ Still interested in discussing {{topic}}.
 Calendar: [link]
 
 Best,
-Umang
+Aditya
 ```
 
 **Email 3 (Day 12 if no response):**
@@ -4149,7 +4149,7 @@ If timing doesn't work now, would love to stay in touch for future.
 Feel free to reach out if {{Company}} is ever hiring for {{role_type}}.
 
 Best,
-Umang
+Aditya
 [Portfolio]
 ```
 
@@ -4359,7 +4359,7 @@ This section consolidates ALL templates you need. Copy-paste and customize as ne
 ### A. YOUR ONE-PAGER (For Network Referrals)
 
 ```
-UMANG - AI PRODUCT ENGINEER
+Aditya - AI PRODUCT ENGINEER
 Available Immediately | Remote / Bangalore / Mumbai / India
 
 ---
@@ -4479,7 +4479,7 @@ I'm now looking for AI Generalist or Product Engineer roles at AI-native startup
 Given your network and board positions, could you introduce me to 2-3 founders hiring for these roles?
 
 I've attached a one-pager. A simple intro like:
-"Umang - AI Product Engineer, shipped Fashion Street AI + Food Compliance + MockMate - available immediately"
+"Aditya - AI Product Engineer, shipped Fashion Street AI + Food Compliance + MockMate - available immediately"
 would be perfect.
 
 Specifically interested in:
@@ -4490,7 +4490,7 @@ Specifically interested in:
 Happy to adjust or provide more context!
 
 Thanks so much,
-Umang
+Aditya
 
 P.S. Available for a quick call if easier!
 
@@ -4527,7 +4527,7 @@ Calendar: [link]
 Portfolio: [link]
 
 Best,
-Umang
+Aditya
 [Phone]
 ```
 
@@ -4557,7 +4557,7 @@ Calendar: [link]
 Portfolio: [link]
 
 Best,
-Umang
+Aditya
 [Phone]
 ```
 
@@ -4582,7 +4582,7 @@ Still interested in chatting if you have 15 minutes!
 Calendar: [link]
 
 Best,
-Umang
+Aditya
 ```
 
 ---
@@ -4609,7 +4609,7 @@ Would love to chat about [specific area they're scaling]. I'm exploring [role ty
 15 min? [Calendar link]
 
 Best,
-Umang
+Aditya
 Portfolio: [link]
 ```
 
@@ -4648,7 +4648,7 @@ Portfolio: [link]
 GitHub: [link]
 
 Best regards,
-Umang [Last Name]
+Aditya [Last Name]
 [Phone] | [Email] | [LinkedIn]
 ```
 
@@ -4689,7 +4689,7 @@ Attached:
 If good match, happy to discuss!
 
 Best,
-Umang
+Aditya
 Portfolio: [link]
 ```
 
@@ -4720,7 +4720,7 @@ Not looking for anything formal - just think I can help you scale faster post-Sh
 15-min demo call? [Calendar link]
 
 Best,
-Umang
+Aditya
 Portfolio: [link]
 ```
 
@@ -4899,7 +4899,7 @@ I'm working on [Project Name] - [one sentence description].
 ```
 Hi [Founder],
 
-I'd like to introduce you to Umang - an AI Product Engineer from the 100x Engineers cohort.
+I'd like to introduce you to Aditya - an AI Product Engineer from the 100x Engineers cohort.
 
 He's built some impressive products:
 • Fashion Street AI (multilingual style reports, 2hrs→5min)

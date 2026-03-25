@@ -90,7 +90,7 @@ export function StickyHeader() {
         <div className="flex items-center justify-between">
           {/* Left */}
           <div className="font-bold text-xl md:text-2xl tracking-tight">
-            Umang Thakkar
+            Aditya Singh
           </div>
 
           {/* Center (desktop nav) */}

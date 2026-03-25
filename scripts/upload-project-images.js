@@ -17,7 +17,7 @@ cloudinary.config({
 const projectImages = [
   // Local images that need to be uploaded
   { local: 'public/projects/astro-ai.png', publicId: 'projects/astro-ai' },
-  { local: 'public/projects/mbti-matching.png', publicId: 'projects/mbti-matching' },
+  { local: '/public/projects/mbti-matching.png', publicId: '/projects/mbti-matching' },
   { local: 'public/projects/fine-tuned-chatbot.png', publicId: 'projects/fine-tuned-chatbot' },
 
   // Images already on Cloudinary (will re-upload with eager transformations)

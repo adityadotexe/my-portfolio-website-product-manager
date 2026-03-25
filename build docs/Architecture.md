@@ -198,7 +198,7 @@ This document describes the complete system architecture for the portfolio websi
 - **Purpose:** Handle contact form submissions
 - **Process:**
   1. Validate input (name, email, message)
-  2. Send email via Resend to `umangthakkar005@gmail.com`
+  2. Send email via Resend to `itsadisingh003@gmail.com`
   3. Insert row into Supabase `leads` table
   4. Return success/error response
 - **Output:** `{ success: boolean, message: string }`
@@ -405,7 +405,7 @@ This document describes the complete system architecture for the portfolio websi
 - Model: `meta-llama/llama-3.1-8b-instruct:free`
 - Max tokens: 2000
 - Temperature: 0.7
-- First-person responses in Umang's voice
+- First-person responses in Aditya's voice
 
 #### `vector-store.js`
 

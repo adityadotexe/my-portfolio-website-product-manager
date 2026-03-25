@@ -16,7 +16,7 @@ const endpoints: APIEndpoint[] = [
       conversationHistory: 'array (optional) - Previous messages in format [{role: "user"|"assistant", content: string}]'
     },
     example: {
-      query: 'What did Umang work on at Hunch?',
+      query: 'What did Aditya work on?',
       conversationHistory: []
     },
     examples: [
@@ -24,7 +24,7 @@ const endpoints: APIEndpoint[] = [
         name: 'First Query (No History)',
         description: 'Start a new conversation',
         body: {
-          query: 'What did Umang work on at Hunch?',
+          query: 'What did Aditya work?',
           conversationHistory: []
         }
       },
@@ -32,15 +32,15 @@ const endpoints: APIEndpoint[] = [
         name: 'Follow-up Query (With History)',
         description: 'Continue conversation using returned conversationHistory',
         body: {
-          query: 'What was his biggest achievement there?',
+          query: 'What was his biggest achievement?',
           conversationHistory: [
             {
               role: 'user',
-              content: 'What did Umang work on at Hunch?'
+              content: 'What did Aditya work on?'
             },
             {
               role: 'assistant',
-              content: 'At Hunch, I worked on building an AI product that helped users discover personalized recommendations...'
+              content: 'I worked on building an AI products that helped users discover personalized recommendations...'
             }
           ]
         }
@@ -94,7 +94,7 @@ const endpoints: APIEndpoint[] = [
       secret: 'string (required)'
     },
     example: {
-      filename: 'Umang_Thakkar_PM_Master_Resume.pdf',
+      filename: 'Aditya_Kumar_Singh_PM_Master_Resume.pdf',
       secret: ''
     }
   },
@@ -111,7 +111,7 @@ const endpoints: APIEndpoint[] = [
       testAll: 'boolean (optional)'
     },
     example: {
-      filename: 'Umang_Thakkar_PM_Master_Resume.pdf',
+      filename: 'Aditya_Kumar_Singh_PM_Master_Resume.pdf',
       documentType: 'resume',
       secret: '',
       testAll: false
@@ -148,7 +148,7 @@ const endpoints: APIEndpoint[] = [
       query: 'string (required)'
     },
     example: {
-      query: 'What did Umang work on?'
+      query: 'What did Aditya work on?'
     }
   },
   {
@@ -182,7 +182,7 @@ const endpoints: APIEndpoint[] = [
       testWithoutCategories: 'boolean (optional)'
     },
     example: {
-      query: 'What did Umang work on at Hunch?',
+      query: 'What did Aditya work on?',
       testWithoutCategories: true
     }
   }

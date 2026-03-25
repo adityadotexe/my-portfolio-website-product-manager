@@ -21,10 +21,10 @@ interface ChatModalProps {
 }
 
 const STARTER_QUESTIONS = [
-  "What did Umang work on at Hunch?",
-  "Tell me about Umang's journey and career decisions",
-  "What technical projects has Umang built?",
-  "What skills has Umang developed from his experiences?",
+  "What did Aditya work on?",
+  "Tell me about Aditya's journey and career decisions",
+  "What technical projects has Aditya built?",
+  "What skills has Aditya developed from his experiences?",
 ]
 
 export function ChatModal({ open, onOpenChange }: ChatModalProps) {
@@ -146,7 +146,7 @@ export function ChatModal({ open, onOpenChange }: ChatModalProps) {
               <div>
                 <DialogTitle>AI Companion</DialogTitle>
                 <p className="text-sm text-muted-foreground">
-                  Ask me anything about Umang
+                  Ask me anything about Aditya
                 </p>
               </div>
             </div>
@@ -171,7 +171,7 @@ export function ChatModal({ open, onOpenChange }: ChatModalProps) {
               <div className="text-center space-y-2">
                 <h3 className="text-lg font-semibold">Welcome!</h3>
                 <p className="text-sm text-muted-foreground max-w-md">
-                  I'm Umang's AI companion. I can answer questions about his
+                  I'm Aditya's AI companion. I can answer questions about his
                   experience, projects, skills, and journey. Try asking me
                   something!
                 </p>
@@ -252,7 +252,7 @@ export function ChatModal({ open, onOpenChange }: ChatModalProps) {
               placeholder={
                 isLoading
                   ? "Generating response..."
-                  : "Ask a question about Umang..."
+                  : "Ask a question about Aditya..."
               }
               disabled={isLoading}
               className="min-h-[60px] max-h-[120px] resize-none"

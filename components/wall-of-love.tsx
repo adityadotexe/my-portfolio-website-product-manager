@@ -51,7 +51,7 @@ export function WallOfLove() {
 
     const interval = setInterval(() => {
       setCurrentSet((prev) => (prev + 1) % totalSets)
-    }, 6000)
+    }, 4000)
 
     return () => clearInterval(interval)
   }, [isPaused, totalSets])

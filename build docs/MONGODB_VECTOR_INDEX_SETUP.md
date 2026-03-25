@@ -89,14 +89,14 @@ The query endpoint is detecting categories correctly but returning "No relevant 
 
 Vector search uses **semantic similarity**, not exact text matching:
 
-1. **Query:** "What did Umang work on at Hunch?"
+1. **Query:** "What did Aditya work on?"
    - Converted to embedding vector (1536 dimensions)
    - Represents semantic meaning, not exact words
 
 2. **Chunks:** Your documents are chunked and embedded
    - Even if chunk says "I did this" (first person)
    - Embedding captures the semantic meaning
-   - "Umang worked" and "I worked" have similar embeddings
+   - "Aditya worked" and "I worked" have similar embeddings
 
 3. **Matching:**
    - Compares query embedding with chunk embeddings
@@ -107,27 +107,27 @@ Vector search uses **semantic similarity**, not exact text matching:
 
 **Journey Documents (First Person):**
 - Chunk: "I worked on building an AI product..."
-- Query: "What did Umang work on?"
+- Query: "What did Aditya work on?"
 - ✅ **Will match** - embeddings capture "work" + "AI product" semantics
 
 **Resume/LinkedIn (Third Person):**
-- Chunk: "Umang Thakkar worked at Hunch..."
+- Chunk: "Aditya Thakkar worked at Hunch..."
 - Query: "Where did he work?"
 - ✅ **Will match** - embeddings understand "work" + "Hunch" relationship
 
 **Spelling Variations:**
 - Query: "What did Unang work on?" (typo)
 - ✅ **Will match** - embeddings are robust to minor spelling differences
-- The embedding for "Unang" is close to "Umang" in vector space
+- The embedding for "Unang" is close to "Aditya" in vector space
 
 **Pronouns:**
 - Query: "Where did he work?"
-- ✅ **Will match** - if conversation history mentions "Umang" or context provides it
+- ✅ **Will match** - if conversation history mentions "Aditya" or context provides it
 - Embeddings understand relationships and context
 
 ### Limitations
 
-- **Very different names:** "John" vs "Umang" won't match
+- **Very different names:** "John" vs "Aditya" won't match
 - **No context:** Query "where did he work?" without conversation history might not work
 - **Completely unrelated:** Query about "cooking recipes" won't match work experience
 
@@ -147,7 +147,7 @@ Vector search uses **semantic similarity**, not exact text matching:
 3. Request Body:
    ```json
    {
-     "query": "What did Umang work on at Hunch?",
+     "query": "What did Aditya work on?",
      "conversationHistory": []
    }
    ```
@@ -156,7 +156,7 @@ Vector search uses **semantic similarity**, not exact text matching:
 **Expected Response:**
 ```json
 {
-  "answer": "At Hunch, I worked on...",
+  "answer": "I worked on...",
   "sources": ["LinkedIn.pdf", "journey_fy-2023-2024.pdf"],
   "suggestedQuestions": [
     "What were the key achievements?",
@@ -179,7 +179,7 @@ Vector search uses **semantic similarity**, not exact text matching:
 **Test 2: Third Person Reference**
 ```json
 {
-  "query": "Where did Umang work?",
+  "query": "Where did Aditya work?",
   "conversationHistory": []
 }
 ```
@@ -188,7 +188,7 @@ Vector search uses **semantic similarity**, not exact text matching:
 ```json
 {
   "query": "What was his biggest achievement there?",
-  "conversationHistory": ["User: Where did Umang work?", "AI: At Hunch..."]
+  "conversationHistory": ["User: Where did Aditya work?", "AI: At several organizations where he led and built projects that sacled to over ten thousands of users..."]
 }
 ```
 

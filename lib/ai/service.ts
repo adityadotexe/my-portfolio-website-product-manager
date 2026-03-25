@@ -36,7 +36,7 @@ type Chunk = ProfessionalChunk | NarrativeChunk | GenericChunk | MarkdownChunk
 function formatSourceName(filename: string): string {
   // Map of known filenames to friendly names
   const sourceMap: Record<string, string> = {
-    'Umang_Thakkar_PM_Master_Resume.pdf': 'Resume',
+    'Aditya_Kumar_Singh_PM_Master_Resume.pdf': 'Resume',
     'LinkedIn.pdf': 'LinkedIn Profile',
     'journey_fy-2023-2024.pdf': 'Journey (2023-2024)',
     'journey_fy-2024-2025.pdf': 'Journey (2024-2025)',
@@ -347,7 +347,7 @@ export async function queryAI(
     if (searchResults.length === 0) {
       console.warn('⚠️  No relevant context found')
       return {
-        answer: "I don't have enough information to answer that question based on my knowledge about Umang. Could you try rephrasing or asking about something else?",
+        answer: "I don't have enough information to answer that question based on my knowledge about Aditya. Could you try rephrasing or asking about something else?",
         sources: [],
         suggestedQuestions: [],
       }

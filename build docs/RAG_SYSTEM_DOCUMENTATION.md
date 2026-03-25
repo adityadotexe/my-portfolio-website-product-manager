@@ -602,7 +602,7 @@ User Query: "What AI projects have you built?"
 8. LLM Generation
    ├─ OpenRouter API
    ├─ Model: meta-llama/llama-3.1-8b-instruct:free
-   ├─ System Prompt: First-person Umang persona
+   ├─ System Prompt: First-person Aditya persona
    └─ Generate response
     ↓
 9. Response Assembly

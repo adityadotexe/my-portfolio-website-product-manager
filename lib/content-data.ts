@@ -18,17 +18,17 @@ export function getPersona(): Persona {
 
 export const heroContent = {
   pm: {
-    headline: "I'm Umang, building products that",
+    headline: "I'm Aditya, building products that",
     typewriterWords: ["ship", "scale", "monetize", "drive retention", "users love"],
     tagline: "AI Product Manager blending product thinking, engineering rigor, and user psychology to ship high-impact products.",
   },
   builder: {
-    headline: "I'm Umang, shipping AI that",
+    headline: "I'm Aditya, shipping AI that",
     typewriterWords: ["works in production", "scales globally", "runs in <500ms", "users trust"],
     tagline: "Full-Stack AI Engineer with 14+ shipped products, from RAG pipelines to multi-agent swarms, building production systems, not prototypes.",
   },
   consultant: {
-    headline: "I'm Umang, automating workflows that",
+    headline: "I'm Aditya, automating workflows that",
     typewriterWords: ["eliminate busywork", "scale infinitely", "never sleep", "just work"],
     tagline: "AI Solutions Architect who builds automation systems that give you your weekends back using code when needed, no-code when faster.",
   },
@@ -86,8 +86,8 @@ export const kpiContent = {
     header: "Impact At A Glance",
     subheader: "Key metrics from products I've shipped",
     quickStats: [
-      { label: "Years Experience", value: "4+" },
-      { label: "Users Reached", value: "5M+" },
+      { label: "Years Experience", value: "2+" },
+      { label: "Users Reached", value: "50K+" },
       { label: "AI Products Shipped", value: "14+" },
       { label: "Clients Served", value: "20+" },
     ],
@@ -104,7 +104,7 @@ export const kpiContent = {
     header: "Engineering Benchmarks",
     subheader: "Performance metrics from production systems",
     quickStats: [
-      { label: "Years Experience", value: "4+" },
+      { label: "Years Experience", value: "2+" },
       { label: "AI Products Shipped", value: "14+" },
       { label: "MCP Servers Built", value: "3+" },
       { label: "Hackathon Wins", value: "2" },
@@ -122,7 +122,7 @@ export const kpiContent = {
     header: "ROI Dashboard",
     subheader: "Measurable results delivered to clients",
     quickStats: [
-      { label: "Years Experience", value: "4+" },
+      { label: "Years Experience", value: "2+" },
       { label: "Clients Served", value: "20+" },
       { label: "Hours Saved/Month", value: "500+" },
       { label: "Automations Running", value: "50+" },
@@ -928,28 +928,28 @@ type Testimonial = {
 export const testimonialsContent: Record<Persona, Testimonial[]> = {
   pm: [
     {
-      avatar: "/ashutosh-gupta.png",
-      name: "Ashutosh Gupta",
-      title: "Strategy at Hunch | Ex-IB | SSCBS",
+      avatar: "/priyanka-joshi.png",
+      name: "Priyanka Joshi",
+      title: "Growing Jarurat Care Foundation | Macro Investable Indices at JP Morgan | IIT Madras",
       quote:
-        "What sets Umang apart is his builder mindset and his ability to blend first-principles thinking with creativity and data-driven execution. His contributions substantially shaped Hunch's product direction, from boosting onboarding engagement to refining matchmaking logic and driving retention experiments. I've seen him work tirelessly, often going beyond his scope, to ensure projects shipped on time and with high quality.",
-      linkedin: "https://www.linkedin.com/in/ashutosh-gupta-0321b2145/",
+        "What sets Aditya apart is his builder mindset and his ability to blend first-principles thinking with creativity and data-driven execution. His contributions substantially shaped JC's product direction, from boosting onboarding engagement to refining matchmaking logic and driving retention experiments. I've seen him work tirelessly, often going beyond his scope, to ensure projects shipped on time and with high quality.",
+      linkedin: "https://www.linkedin.com/in/priyanka-joshi-464706116/",
     },
     {
-      avatar: "/shiv-pande.png",
-      name: "Shiv Ram Pande",
-      title: "Founding Team & CBO at BitSave | Digital Asset Management",
+      avatar: "/sam-liggero.png",
+      name: "Sam H Liggero",
+      title: "Ex-Corporate VP & Program Fellow at Polaroid Corporation",
       quote:
-        "Umang rose to the challenge with dedication and endless ideas. He wasn't just a wordsmith; he was a creative architect who shaped product direction through data-driven insights. His influence extended beyond his own work, shaping the content team through guidance and mentorship. Any team looking to innovate and execute at speed would be fortunate to have him.",
-      linkedin: "https://www.linkedin.com/in/shivrampande/",
+        "Aditya rose to the challenge with dedication and endless ideas. He wasn't just a wordsmith; he was a creative architect who shaped product direction through data-driven insights. His influence extended beyond his own work, shaping the content team through guidance and mentorship. Any team looking to innovate and execute at speed would be fortunate to have him.",
+      linkedin: "https://www.linkedin.com/in/sam-liggero-6b6138/",
     },
     {
-      avatar: "/dipayan-chatterjee.png",
-      name: "Dipayan Chatterjee",
-      title: "Full-stack marketer growing tech startups from 0-1 and 1-10",
+      avatar: "/hamid-sha.png",
+      name: "Hamid Sha",
+      title: "CEO, Value Aligners | Agentic AI cybersecurity for SMB's",
       quote:
-        "Umang embodies resilience, adaptability and grit. No matter how complex a problem may be, you can expect it to be assessed, quantified and worn down to a solution with simple determination. It has pleased me greatly to see him take on a larger strategy-focused role in the organization.",
-      linkedin: "https://www.linkedin.com/in/dipayanchatterjee/",
+        "Aditya embodies resilience, adaptability and grit. No matter how complex a problem may be, you can expect it to be assessed, quantified and worn down to a solution with simple determination. It has pleased me greatly to see him take on a larger strategy-focused role in the organization.",
+      linkedin: "https://www.linkedin.com/in/hamid-sha-phd-aa322a4a/",
     },
   ],
   builder: [
