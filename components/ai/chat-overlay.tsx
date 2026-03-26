@@ -27,7 +27,7 @@ interface ChatOverlayProps {
 }
 
 const STARTER_QUESTIONS = [
-  "What did Aditya work on at Hunch?",
+  "What did Aditya work on at Value Aligners?",
   "Tell me about Aditya's journey and career decisions",
   "What technical projects has Aditya built?",
   "What skills has Aditya developed from his experiences?",
