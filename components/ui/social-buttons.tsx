@@ -214,7 +214,7 @@ export function ResumeButton({ className = "", enableSound = true }: CommonProps
       onClick={handleClick}
     >
       <FileText className="h-5 w-5" />
-      <span className="text-base font-medium">Resume</span>
+      <span className="text-base font-medium">Resumé</span>
     </motion.a>
   )
 }
