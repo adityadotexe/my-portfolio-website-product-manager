@@ -42,17 +42,17 @@ const getTimelineItems = (persona: string): TimelineItem[] => [
     date: "Oct 2025 – March 2026",
     roleId: "100x-engineers",
   },
+    {
+    title: "Project Facilitator",
+    company: "Tufts University Community Health Department",
+    date: "Oct 2025 – March 2026",
+    roleId: "freelance",
+  },
   {
     title: "Product Manager Intern",
     company: "JC Foundation",
     date: "July 2025 – Oct 2025",
     roleId: "inurture",
-  },
-  {
-    title: "Project Facilitator",
-    company: "Tufts University Community Health Department",
-    date: "Oct 2025 – March 2026",
-    roleId: "freelance",
   },
   {
     title: "Student Director - Hostel & Dining Operations",
@@ -63,20 +63,20 @@ const getTimelineItems = (persona: string): TimelineItem[] => [
   {
     title: "Software Developer Intern",
     company: "NTPC LTD.",
-    date: "Oct 2023 – Nov 2023",
+    date: "Oct 2023 – Jan 2024",
     roleId: "hunch-content",
-  },
-   {
-    title: "General Secretary | Treasurer",
-    company: "VinnoavateIT",
-    date: "Sep 2023 – Dec 2024",
-    roleId: "gen-sec",
   },
   {
     title: "Full Stack Developer",
     company: "Scrollify",
-    date: "Feb 2023 – Nov 2023",
+    date: "Jan 2023 – Oct 2023",
     roleId: "plotx",
+  },
+     {
+    title: "General Secretary | Treasurer",
+    company: "VinnoavateIT",
+    date: "Sep 2021 – Dec 2024",
+    roleId: "gen-sec",
   },
 ]
 

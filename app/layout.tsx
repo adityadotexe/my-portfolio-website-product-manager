@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Suspense } from "react"
 import "./globals.css"
 import { Toaster } from "sonner"
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: "Aditya Kumar Singh - Product Manager",
