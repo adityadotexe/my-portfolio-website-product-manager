@@ -86,8 +86,8 @@ export const kpiContent = {
     header: "Impact At A Glance",
     subheader: "Key metrics from products I've shipped",
     quickStats: [
-      { label: "Years Experience", value: "2+" },
-      { label: "Users Reached", value: "50K+" },
+      { label: "Years Experience", value: "1+" },
+      { label: "Users Reached", value: "100K+" },
       { label: "AI Products Shipped", value: "10+" },
       { label: "Clients Served", value: "20+" },
     ],

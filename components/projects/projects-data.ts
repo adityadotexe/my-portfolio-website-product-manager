@@ -8,13 +8,13 @@ export const projectsData: Project[] = [
     image: "/projects/messit.jpg",
     imageAlt: "MessIT – Digital Dining Platform for University Students",
     briefDescription:
-      "Led product development of MessIT, a digital dining platform adopted by 10,000+ students at VIT University, replacing manual mess-menu processes with a seamless digital experience.",
+      "Led product development of MessIT, a digital dining platform adopted by 100K+ students at VIT University, replacing manual mess-menu processes with a seamless digital experience.",
     problem:
-      "University dining was entirely manual — students had no visibility into daily menus, couldn't provide structured feedback, and administrators had no data to improve operations. The process was slow, inefficient, and frustrating for 10,000+ students.",
+      "University dining was entirely manual — students had no visibility into daily menus, couldn't provide structured feedback, and administrators had no data to improve operations. The process was slow, inefficient, and frustrating for 100K+ students.",
     detailedDescription:
       "MessIT is a digital dining platform built to replace the outdated manual mess-menu processes at VIT University, one of India's largest residential campuses with 30,000+ on-campus students. As the product lead, I drove the end-to-end development — from user discovery and requirements gathering to launch and adoption.\n\nThe platform gave students real-time access to daily menus, enabled structured feedback collection, and provided administrators with actionable data to improve dining operations at scale.",
     outcomeBullets: [
-      "Adopted by 10,000+ of VIT University's on-campus students",
+      "Adopted by 100K+ of VIT University's on-campus students",
       "Replaced 100% of manual mess-menu processes",
       "Enabled structured feedback collection for dining administrators",
       "Improved operational visibility and menu planning efficiency",
@@ -29,7 +29,7 @@ export const projectsData: Project[] = [
     status: "Active",
     statusColor: "green",
     isFeatured: true,
-    kpi: "10,000+",
+    kpi: "100K+",
     kpiLabel: "Students Adopted",
     kpiValue: "Full Campus Rollout",
     demoUrl: "https://play.google.com/store/apps/details?id=com.vinnovateit.messit&pcampaignid=web_share",
