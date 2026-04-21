@@ -146,7 +146,7 @@ export function ChatModal({ open, onOpenChange }: ChatModalProps) {
               <div>
                 <DialogTitle>AI Companion</DialogTitle>
                 <p className="text-sm text-muted-foreground">
-                  Ask the AI anything about Aditya
+                  Ask the AI anything about me
                 </p>
               </div>
             </div>
