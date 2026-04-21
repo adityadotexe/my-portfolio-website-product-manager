@@ -278,7 +278,7 @@ export function Hero() {
                 setInterimInput("") // Clear interim when user types
               }}
               onKeyDown={handleKeyDown}
-              placeholder={listening ? "Listening..." : "Ask me anything..."}
+              placeholder={listening ? "Listening..." : "Ask the AI anything about Aditya..."}
               className={`h-16 text-lg rounded-2xl border-2 w-full hover:border-primary/50 focus:border-primary transition-all duration-300 pr-16 ${
                 listening ? "border-primary/50 shadow-[0_0_20px_rgba(37,99,235,0.3)]" : ""
               }`}

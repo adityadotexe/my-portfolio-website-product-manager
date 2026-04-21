@@ -430,7 +430,7 @@ export function ChatOverlay({ open, onClose, initialQuery }: ChatOverlayProps) {
             <div>
               <h1 className="text-lg font-semibold">AI Companion</h1>
               <p className="text-sm text-muted-foreground">
-                Ask me anything about Aditya
+                Ask the AI anything about Aditya
               </p>
             </div>
           </div>
