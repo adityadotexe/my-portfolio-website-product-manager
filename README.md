@@ -158,7 +158,7 @@
 4. **Add your documents**
 
    Place your PDF files in the `documents/` folder:
-   - Resume/CV (e.g., `Umang_Thakkar_PM_Master_Resume.pdf`)
+   - Resume/CV (e.g., `resume.pdf`)
    - LinkedIn export (e.g., `LinkedIn.pdf`)
    - Journey documents (e.g., `journey_fy-2024-2025.pdf`)
 
@@ -207,7 +207,7 @@ POST /api/ai/query
 Content-Type: application/json
 
 {
-  "query": "What did Umang work on at Hunch?",
+  "query": "What did Aditya worked on?",
   "conversationHistory": []
 }
 ```
@@ -348,11 +348,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Umang Thakkar**
+**Aditya Kumar Singh**
 
-- Portfolio: https://v0-portfolio-website-one-swart.vercel.app/
-- LinkedIn: https://www.linkedin.com/in/umang-thakkar-90a4a5164/
-- Email: umangthakkar005@gmail.com
+- Portfolio: https://itsadityakumarsingh.tech
+- LinkedIn: https://www.linkedin.com/in/itsadityakumarsingh/
+- Email: itsadisingh003@gmail.com
 
 ## 🙏 Acknowledgments
 
