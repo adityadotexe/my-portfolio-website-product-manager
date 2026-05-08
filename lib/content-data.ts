@@ -975,7 +975,7 @@ export const testimonialsContent: Record<Persona, Testimonial[]> = {
       name: "Ashutosh Gupta",
       title: "Strategy at Hunch | Ex-IB | SSCBS",
       quote:
-        "What sets Umang apart is his builder mindset and his ability to blend first-principles thinking with creativity and data-driven execution. He fine-tuned internal chat models that significantly improved engagement and built an internal analytics dashboard using Retool and Redshift, giving us real-time insights into virality and competitor activity. At the same time, he designed engaging poll formats, ran rigorous A/B tests, and dove deep into data to inform product decisions.",
+        "What sets Aditya apart is his builder mindset and his ability to blend first-principles thinking with creativity and data-driven execution. He fine-tuned internal chat models that significantly improved engagement and built an internal analytics dashboard using Retool and Redshift, giving us real-time insights into virality and competitor activity. At the same time, he designed engaging poll formats, ran rigorous A/B tests, and dove deep into data to inform product decisions.",
       linkedin: "https://www.linkedin.com/in/ashutosh-gupta-0321b2145/",
     },
     {
@@ -983,7 +983,7 @@ export const testimonialsContent: Record<Persona, Testimonial[]> = {
       name: "Shiv Ram Pande",
       title: "Founding Team & CBO at BitSave | Digital Asset Management",
       quote:
-        "It's not often you find someone like Umang—a diligent writer brimming with boundless imagination. He wasn't just a wordsmith; he was a creative architect, crafting content that captured Hunch's essence and resonated with early users. His wit, nuance, and unexpected touches inspired the team to push boundaries and strive for excellence.",
+        "It's not often you find someone like Aditya—a diligent builder brimming with boundless imagination. He wasn't just a wordsmith; he was a creative architect, crafting content that captured the product's essence and resonated with early users. His wit, nuance, and unexpected touches inspired the team to push boundaries and strive for excellence.",
       linkedin: "https://www.linkedin.com/in/shivrampande/",
     },
     {
@@ -991,7 +991,7 @@ export const testimonialsContent: Record<Persona, Testimonial[]> = {
       name: "Dipayan Chatterjee",
       title: "Full-stack marketer growing tech startups from 0-1 and 1-10",
       quote:
-        "No matter how complex a problem may be, you can expect it to be assessed, quantified and worn down to a solution with simple determination. Umang embodies resilience, adaptability and grit—qualities essential for any builder shipping production systems.",
+        "No matter how complex a problem may be, you can expect it to be assessed, quantified and worn down to a solution with simple determination. Aditya embodies resilience, adaptability and grit—qualities essential for any builder shipping production systems.",
       linkedin: "https://www.linkedin.com/in/dipayanchatterjee/",
     },
   ],
@@ -1001,7 +1001,7 @@ export const testimonialsContent: Record<Persona, Testimonial[]> = {
       name: "Ashutosh Gupta",
       title: "Strategy at Hunch | Ex-IB | SSCBS",
       quote:
-        "Umang built an internal analytics dashboard using Retool and Redshift, giving us real-time insights into virality and competitor activity—always iterating rapidly to deliver results. His contributions substantially shaped Hunch's product direction. I've seen him work tirelessly, often going beyond his scope, to ensure projects shipped on time and with high quality.",
+        "Aditya built an internal analytics dashboard using Retool and Redshift, giving us real-time insights into virality and competitor activity—always iterating rapidly to deliver results. His contributions substantially shaped the product direction. I've seen him work tirelessly, often going beyond his scope, to ensure projects shipped on time and with high quality.",
       linkedin: "https://www.linkedin.com/in/ashutosh-gupta-0321b2145/",
     },
     {
@@ -1009,7 +1009,7 @@ export const testimonialsContent: Record<Persona, Testimonial[]> = {
       name: "Shiv Ram Pande",
       title: "Founding Team & CBO at BitSave | Digital Asset Management",
       quote:
-        "Umang's dedication went beyond deadlines. His influence extended beyond his own work, shaping the young content team through guidance and mentorship. His constructive criticism, always delivered with genuine desire for everyone's success, became a beacon. Working with Umang was a joy—he brings his A-game every day.",
+        "Aditya's dedication went beyond deadlines. His influence extended beyond his own work, shaping the young content team through guidance and mentorship. His constructive criticism, always delivered with genuine desire for everyone's success, became a beacon. Working with Aditya was a joy—he brings his A-game every day.",
       linkedin: "https://www.linkedin.com/in/shivrampande/",
     },
     {
@@ -1017,7 +1017,7 @@ export const testimonialsContent: Record<Persona, Testimonial[]> = {
       name: "Dipayan Chatterjee",
       title: "Full-stack marketer growing tech startups from 0-1 and 1-10",
       quote:
-        "Umang embodies resilience, adaptability and grit. No matter how complex a problem may be, you can expect it to be assessed, quantified and worn down to a solution with simple determination. It was an absolute pleasure working with Umang.",
+        "Aditya embodies resilience, adaptability and grit. No matter how complex a problem may be, you can expect it to be assessed, quantified and worn down to a solution with simple determination. It was an absolute pleasure working with Aditya.",
       linkedin: "https://www.linkedin.com/in/dipayanchatterjee/",
     },
   ],

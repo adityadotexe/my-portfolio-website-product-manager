@@ -1,31 +1,38 @@
 // lib/ai/embeddings.ts
-import OpenAI from 'openai'
+import { CohereClient } from 'cohere-ai'
 
-const apiKey = process.env.OPENAI_API_KEY
+const apiKey = process.env.COHERE_API_KEY
 
 if (!apiKey) {
-  console.warn('Warning: OPENAI_API_KEY is not defined. AI features will be disabled.')
+  console.warn('Warning: COHERE_API_KEY is not defined. AI embedding features will be disabled.')
 }
 
-const openai = apiKey ? new OpenAI({ apiKey }) : null
+const cohere = apiKey ? new CohereClient({ token: apiKey }) : null
 
-const embeddingModel = process.env.EMBEDDING_MODEL || 'text-embedding-3-small'
+const EMBEDDING_MODEL = 'embed-english-v3.0'
 
 export async function generateEmbedding(text: string): Promise<number[]> {
-  if (!openai) {
-    console.warn('OpenAI client not initialized. Returning empty embedding.')
+  if (!cohere) {
+    console.warn('Cohere client not initialized. Returning empty embedding.')
     return []
   }
   try {
     if (!text || text.trim().length === 0) {
       throw new Error('Text cannot be empty for embedding generation')
     }
-    const response = await openai.embeddings.create({
-      model: embeddingModel,
-      input: text,
-      encoding_format: 'float',
+    const response = await cohere.embed({
+      texts: [text],
+      model: EMBEDDING_MODEL,
+      inputType: 'search_query',
+      embeddingTypes: ['float'],
     })
-    return response.data[0].embedding
+    const floats = response.embeddings && 'float' in response.embeddings
+      ? (response.embeddings as { float: number[][] }).float
+      : null
+    if (!floats || floats.length === 0) {
+      throw new Error('No embedding returned from Cohere')
+    }
+    return floats[0]
   } catch (error) {
     console.error('Error generating embedding:', error)
     throw error
@@ -34,10 +41,10 @@ export async function generateEmbedding(text: string): Promise<number[]> {
 
 export async function batchGenerateEmbeddings(
   texts: string[],
-  batchSize: number = 50
+  batchSize: number = 96
 ): Promise<number[][]> {
-  if (!openai) {
-    console.warn('OpenAI client not initialized. Returning empty embeddings.')
+  if (!cohere) {
+    console.warn('Cohere client not initialized. Returning empty embeddings.')
     return []
   }
   try {
@@ -48,11 +55,21 @@ export async function batchGenerateEmbeddings(
     for (let i = 0; i < validTexts.length; i += batchSize) {
       const batch = validTexts.slice(i, i + batchSize)
       console.log(`Processing embedding batch ${Math.floor(i / batchSize) + 1}/${Math.ceil(validTexts.length / batchSize)}...`)
-      const batchPromises = batch.map(text => generateEmbedding(text))
-      const batchEmbeddings = await Promise.all(batchPromises)
-      embeddings.push(...batchEmbeddings)
+      const response = await cohere.embed({
+        texts: batch,
+        model: EMBEDDING_MODEL,
+        inputType: 'search_document',
+        embeddingTypes: ['float'],
+      })
+      const floats = response.embeddings && 'float' in response.embeddings
+        ? (response.embeddings as { float: number[][] }).float
+        : null
+      if (!floats || floats.length === 0) {
+        throw new Error(`No embeddings returned for batch starting at index ${i}`)
+      }
+      embeddings.push(...floats)
       if (i + batchSize < validTexts.length) {
-        await new Promise(resolve => setTimeout(resolve, 100))
+        await new Promise(resolve => setTimeout(resolve, 200))
       }
     }
     console.log(`✅ Generated ${embeddings.length} embeddings`)

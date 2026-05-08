@@ -14,7 +14,7 @@ export interface GitHubRepo {
 }
 
 const GITHUB_API_BASE = 'https://api.github.com'
-const GITHUB_USERNAME = process.env.GITHUB_USERNAME || 'Umang00'
+const GITHUB_USERNAME = process.env.GITHUB_USERNAME || ''
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN
 
 /**
@@ -25,7 +25,7 @@ export async function loadGitHubRepos(): Promise<GitHubRepo[]> {
   try {
     const headers: Record<string, string> = {
       'Accept': 'application/vnd.github.mercy-preview+json',  // Required for topics
-      'User-Agent': 'Umang-Portfolio-AI',
+      'User-Agent': 'Aditya-Portfolio-AI',
     }
 
     if (GITHUB_TOKEN) {
@@ -111,7 +111,7 @@ export async function loadGitHubRepo(repoName: string): Promise<GitHubRepo | nul
   try {
     const headers: Record<string, string> = {
       'Accept': 'application/vnd.github.mercy-preview+json',  // Required for topics
-      'User-Agent': 'Umang-Portfolio-AI',
+      'User-Agent': 'Aditya-Portfolio-AI',
     }
 
     if (GITHUB_TOKEN) {
@@ -177,7 +177,7 @@ export async function checkGitHubRateLimit(): Promise<{
   try {
     const headers: Record<string, string> = {
       'Accept': 'application/vnd.github.mercy-preview+json',  // Required for topics
-      'User-Agent': 'Umang-Portfolio-AI',
+      'User-Agent': 'Aditya-Portfolio-AI',
     }
 
     if (GITHUB_TOKEN) {

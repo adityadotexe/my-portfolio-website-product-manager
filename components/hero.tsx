@@ -17,7 +17,7 @@ import { useSound } from "@/hooks/use-sound"
 import { useReducedMotion } from "@/hooks/use-reduced-motion"
 import { heroContent, getPersona } from "@/lib/content-data"
 
-const greetings = ["Hey there!", "Welcome!", "Hello!", "Hi!"]
+const greetings = ["Hey there!", "Hola!", "Howdy!", "Namaste!"]
 
 export function Hero() {
   const persona = getPersona()

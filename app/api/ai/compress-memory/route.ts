@@ -2,9 +2,9 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 export async function POST(req: NextRequest) {
-  // Guard: skip if API key is missing or placeholder
-  const apiKey = process.env.OPENAI_API_KEY
-  if (!apiKey || apiKey.startsWith('sk-placeholder') || apiKey === 'sk-') {
+  // Guard: skip if OpenRouter API key is missing (compress memory uses the LLM, not embeddings)
+  const apiKey = process.env.OPENROUTER_API_KEY
+  if (!apiKey) {
     return NextResponse.json({
       originalLength: 0,
       compressedLength: 0,
