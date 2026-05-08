@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { Maximize, Mic, ArrowUp } from "lucide-react"
+import { Bot, Mic, ArrowUp } from "lucide-react"
 import { Typewriter } from "react-simple-typewriter"
 import { LinkedInButton, GitHubButton, ResumeButton } from "@/components/ui/social-buttons"
 import { ChatOverlay } from "@/components/ai/chat-overlay"
@@ -185,36 +185,45 @@ export function Hero() {
 
         <ScrollReveal variant="fadeInUp" delay={0.8} duration={0.6}>
         <form onSubmit={handleSubmit} className="relative w-full max-w-3xl mx-auto flex items-center gap-2">
-          {/* Maximize Icon Button - Opens AI Companion page */}
+          {/* AI Companion Button - Opens chat overlay */}
           {shouldReduceMotion ? (
             <Button
               type="button"
-              variant="ghost"
-              size="icon"
               onClick={handleOpenChat}
-              className="h-12 w-12 rounded-xl bg-background border border-border hover:bg-muted transition-all duration-300 flex-shrink-0"
-              title="Open AI Companion"
+              className="h-12 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 flex-shrink-0 px-4 flex items-center gap-2 font-medium"
+              title="Open AI Chat Companion"
             >
-              <Maximize className="h-5 w-5 text-foreground" />
+              <Bot className="h-5 w-5" />
+              <span className="text-sm whitespace-nowrap">Ask my AI</span>
             </Button>
           ) : (
             <motion.div
-              whileHover={{ scale: 1.1, rotate: 90 }}
-              whileTap={{ scale: 0.95 }}
-              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              whileHover={{ scale: 1.04 }}
+              whileTap={{ scale: 0.96 }}
+              animate={{
+                boxShadow: [
+                  "0 0 0px 0px rgba(37, 99, 235, 0.0)",
+                  "0 0 14px 4px rgba(37, 99, 235, 0.35)",
+                  "0 0 0px 0px rgba(37, 99, 235, 0.0)",
+                ],
+              }}
+              transition={{
+                boxShadow: { duration: 2.5, repeat: Infinity, ease: "easeInOut" },
+                scale: { type: "spring", stiffness: 400, damping: 10 },
+              }}
+              className="rounded-xl flex-shrink-0"
             >
               <Button
                 type="button"
-                variant="ghost"
-                size="icon"
                 onClick={() => {
-                  if (!shouldReduceMotion) play("click")
+                  play("click")
                   handleOpenChat()
                 }}
-                className="h-12 w-12 rounded-xl bg-background border border-border hover:bg-muted transition-all duration-300 flex-shrink-0"
-                title="Open AI Companion"
+                className="h-12 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 px-4 flex items-center gap-2 font-medium"
+                title="Open AI Chat Companion"
               >
-                <Maximize className="h-5 w-5 text-foreground" />
+                <Bot className="h-5 w-5" />
+                <span className="text-sm whitespace-nowrap">Ask my AI</span>
               </Button>
             </motion.div>
           )}
