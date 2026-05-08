@@ -1,13 +1,18 @@
 import { type NextRequest, NextResponse } from "next/server"
 import { Resend } from "resend"
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
 // Optional overrides so you can change without code edits
 const FROM = process.env.RESEND_FROM || "Aditya Kumar Singh <onboarding@resend.dev>"
 const TO = process.env.RESEND_TO || "itsadisingh003@gmail.com"
 
 export async function POST(request: NextRequest) {
+  if (!process.env.RESEND_API_KEY) {
+    console.error("RESEND_API_KEY is not set")
+    return NextResponse.json({ error: "Email service not configured" }, { status: 503 })
+  }
+
+  const resend = new Resend(process.env.RESEND_API_KEY)
+
   try {
     const body = await request.json()
     const { name, email, websiteSocial, subject, message } = body as {
