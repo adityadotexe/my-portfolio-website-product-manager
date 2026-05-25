@@ -18,17 +18,17 @@ export function getPersona(): Persona {
 
 export const heroContent = {
   pm: {
-    headline: "I'm Aditya, building products that",
+    headline: "I'm Adi, building products that",
     typewriterWords: ["ship", "scale", "monetize", "drive retention", "users love"],
     tagline: "AI Product Manager blending product thinking, engineering rigor, and user psychology to ship high-impact products.",
   },
   builder: {
-    headline: "I'm Aditya, shipping AI that",
+    headline: "I'm Adi, shipping AI that",
     typewriterWords: ["works in production", "scales globally", "runs in <500ms", "users trust"],
     tagline: "Full-Stack AI Engineer with 10+ shipped products, from RAG pipelines to multi-agent swarms, building production systems, not prototypes.",
   },
   consultant: {
-    headline: "I'm Aditya, automating workflows that",
+    headline: "I'm Adi, automating workflows that",
     typewriterWords: ["eliminate busywork", "scale infinitely", "never sleep", "just work"],
     tagline: "AI Solutions Architect who builds automation systems that give you your weekends back using code when needed, no-code when faster.",
   },
