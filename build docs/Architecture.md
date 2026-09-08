@@ -394,8 +394,8 @@ This document describes the complete system architecture for the portfolio websi
 
 **Purpose:** Generate embeddings using OpenAI API
 
-- Model: `text-embedding-3-small`
-- Dimensions: 1536
+- Model: `embed-english-v3.0` (Cohere)
+- Dimensions: 1024
 - Batch size: 50
 
 #### `llm.js`
@@ -545,7 +545,7 @@ Three Vercel deployments connected to the same git repository, each with a diffe
 | UI Components | shadcn/ui (Radix)              | Component library       |
 | Motion        | Framer Motion 6                | Animations              |
 | Vector DB     | MongoDB Atlas (M0)             | Embeddings storage      |
-| Embeddings    | OpenAI text-embedding-3-small  | Vector generation       |
+| Embeddings    | Cohere embed-english-v3.0  | Vector generation       |
 | LLM           | OpenRouter (Llama 3.1 8B free) | Chat completions        |
 | PDF Parsing   | pdf-parse-new                  | Extract text from PDFs  |
 | Email         | Resend                         | Email delivery          |
@@ -592,8 +592,8 @@ MONGODB_URI="mongodb+srv://..."
 MONGODB_DB_NAME="portfolio_ai"
 
 # OpenAI (Embeddings only)
-OPENAI_API_KEY="sk-..."
-EMBEDDING_MODEL="text-embedding-3-small"
+COHERE_API_KEY="..."
+
 
 # OpenRouter (LLM only)
 OPENROUTER_API_KEY="sk-or-v1-..."

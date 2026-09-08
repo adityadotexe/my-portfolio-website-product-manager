@@ -726,6 +726,13 @@ Use cases: Social media content, advertising, book covers, movie posters. Value:
 
 export const journeyContent = {
   pm: {
+    "sharkninja-coop": [
+      "Built a price monitoring agent to replace TrackStreet, a $5,000/month third-party subscription, achieving 3× faster dealer and pricing surveillance across European markets with greater flexibility for process owners",
+      "Automated weekly EMEA Price Bible workflow using AI agents, reducing a 4-hour manual process to near-zero human effort across the Strategic Sales and Revenue Growth Team",
+      "Automated monthly Marketing Events Calendar cycle end-to-end, intake through SFO upload and workbook rebuild, cutting cycle time from several hours to near-zero manual effort and closing a longstanding audit gap",
+      "Developed a Voice of Consumer pain score platform integrating Snowflake and multiple data sources, scoring consumer pain across 7 weighted pillars by country and category, and routing high-priority issues to the right internal teams",
+      "Built a Claude AI agent for the testing and quality team that generates detailed ABR test case scenarios from product specs, delivering structured reports in Word, PDF, and Markdown formats to expand testing coverage beyond standard protocols",
+    ],
     "100x-engineers": [
       "Shipped 4 production Agentic AI products in 6 months, demonstrating rapid idea-to-MVP execution, serving budget-constrained SMBs",
       "Identified and resolved release bottlenecks improving engineering development throughput",
@@ -778,6 +785,13 @@ export const journeyContent = {
     ],
   },
   builder: {
+    "sharkninja-coop": [
+      "Built a price monitoring agent replacing TrackStreet, a $5,000/month third-party subscription, delivering 3× faster dealer and pricing surveillance across European markets",
+      "Built AI agents automating the weekly EMEA Price Bible workflow, collapsing a 4-hour manual process to near-zero human effort",
+      "Automated the monthly Marketing Events Calendar pipeline end-to-end — intake through SFO upload and workbook rebuild — cutting several hours of manual work to near-zero",
+      "Developed a Voice of Consumer pain score platform on Snowflake, integrating multiple data sources and scoring consumer pain across 7 weighted pillars by country and category with automated routing",
+      "Built a Claude-powered agent that generates ABR test case scenarios from product specs, exporting structured reports in Word, PDF, and Markdown formats",
+    ],
     "100x-engineers": [
       "Shipped 4 production AI systems in 6 months as elite cohort member (Top 20), including mobile apps, MCP servers, and multi-agent systems",
       "Built production MCP server (Git Roast) enabling AI tool integration across Claude Desktop, ChatGPT, and Cursor with SSE streaming",
@@ -809,6 +823,13 @@ export const journeyContent = {
     ],
   },
   consultant: {
+    "sharkninja-coop": [
+      "Replaced TrackStreet, a $5,000/month third-party subscription, with an in-house price monitoring agent — 3× faster dealer and pricing surveillance across European markets with greater flexibility for process owners",
+      "Cut the weekly EMEA Price Bible workflow from a 4-hour manual process to near-zero effort for the Strategic Sales and Revenue Growth Team using AI agents",
+      "Closed a longstanding audit gap by automating the monthly Marketing Events Calendar cycle end-to-end, intake through SFO upload and workbook rebuild, reducing several hours of manual work to near-zero",
+      "Delivered a Voice of Consumer pain score platform integrating Snowflake and multiple data sources, scoring consumer pain across 7 weighted pillars by country and category and routing high-priority issues to the right internal teams",
+      "Expanded testing coverage beyond standard protocols with a Claude AI agent generating ABR test case scenarios from product specs, delivered in Word, PDF, and Markdown formats",
+    ],
     "100x-engineers": [
       "Shipped 4 client-ready automation systems in 6 months as elite cohort member, demonstrating rapid problem-to-solution execution",
       "Built multi-agent systems for scalable customer support, research automation, and content generation—zero ongoing manual intervention",

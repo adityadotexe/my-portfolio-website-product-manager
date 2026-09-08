@@ -332,19 +332,37 @@ export async function queryAI(
     const relevantCategories = analyzeQueryForCategories(query)
     console.log(`Categories detected: ${relevantCategories.length > 0 ? relevantCategories.join(', ') : 'all'}`)
 
-    // Step 2: Generate query embedding
-    console.log('🧠 Generating query embedding...')
-    const queryEmbedding = await generateEmbedding(query)
+    // Steps 2 & 3: Retrieve grounding context from the vector store.
+    // Retrieval is a best-effort enhancement, not a hard dependency. If Cohere
+    // or MongoDB is unavailable, degrade to the profile carried in the LLM
+    // system prompt instead of failing the whole request.
+    let searchResults: Awaited<ReturnType<typeof smartSearch>> = []
+    let retrievalAvailable = true
 
-    // Step 3: Search for relevant chunks
-    console.log('🔍 Searching for relevant context...')
-    const searchResults = await smartSearch(queryEmbedding, {
-      limit: 5,
-      categories: relevantCategories.length > 0 ? relevantCategories : undefined,
-      boostRecent: true,
-    })
+    try {
+      console.log('🧠 Generating query embedding...')
+      const queryEmbedding = await generateEmbedding(query)
 
-    if (searchResults.length === 0) {
+      // generateEmbedding returns [] when COHERE_API_KEY is missing rather
+      // than throwing, so treat an empty vector as retrieval being unavailable.
+      if (queryEmbedding.length === 0) {
+        throw new Error('Embedding provider returned no vector (COHERE_API_KEY missing?)')
+      }
+
+      console.log('🔍 Searching for relevant context...')
+      searchResults = await smartSearch(queryEmbedding, {
+        limit: 5,
+        categories: relevantCategories.length > 0 ? relevantCategories : undefined,
+        boostRecent: true,
+      })
+    } catch (error) {
+      retrievalAvailable = false
+      console.error('⚠️  Retrieval unavailable, answering from base profile:', error)
+    }
+
+    // Only claim ignorance when retrieval actually worked and genuinely found
+    // nothing. If retrieval is down, let the LLM answer from its base profile.
+    if (searchResults.length === 0 && retrievalAvailable) {
       console.warn('⚠️  No relevant context found')
       return {
         answer: "I don't have enough information to answer that question based on my knowledge about Aditya. Could you try rephrasing or asking about something else?",

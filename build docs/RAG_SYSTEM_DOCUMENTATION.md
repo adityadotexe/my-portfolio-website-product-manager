@@ -169,7 +169,7 @@ calculateSmartOverlap(previousChunk, maxWords=30, maxTokens=50)
 **Location:** `lib/ai/embeddings.ts`
 
 **Model:** `text-embedding-3-small` (OpenAI)
-- **Dimensions:** 1536
+- **Dimensions:** 1024
 - **Batch Size:** 50 chunks per batch
 - **Rate Limiting:** 100ms delay between batches
 
@@ -177,7 +177,7 @@ calculateSmartOverlap(previousChunk, maxWords=30, maxTokens=50)
 1. Filter empty texts
 2. Process in batches of 50
 3. Generate embeddings via OpenAI API
-4. Return array of 1536-dimensional vectors
+4. Return array of 1024-dimensional vectors
 
 **Why Batch Processing?**
 - Avoids API rate limits
@@ -196,7 +196,7 @@ calculateSmartOverlap(previousChunk, maxWords=30, maxTokens=50)
 ```typescript
 {
   text: string,              // Chunk text
-  embedding: number[],      // 1536-dimensional vector
+  embedding: number[],      // 1024-dimensional vector
   category: string,          // 'resume', 'linkedin', 'journey', 'github', 'generic'
   subcategory?: string,      // 'experience', 'skills', 'projects', etc.
   metadata: {
@@ -229,7 +229,7 @@ calculateSmartOverlap(previousChunk, maxWords=30, maxTokens=50)
 
 **Process:**
 
-1. **Query Embedding**: User query → 1536-dimensional vector (same model as documents)
+1. **Query Embedding**: User query → 1024-dimensional vector (same model as documents)
 
 2. **MongoDB Atlas Vector Search**:
    ```typescript
@@ -549,7 +549,7 @@ Query: "What AI projects have you built?"
 4. Embedding Generation
    ├─ Batch processing (50 chunks/batch)
    ├─ OpenAI text-embedding-3-small
-   └─ 1536-dimensional vectors
+   └─ 1024-dimensional vectors
 
 5. Vector Storage
    ├─ MongoDB Atlas collection: memoryIndex
@@ -575,7 +575,7 @@ User Query: "What AI projects have you built?"
     ↓
 2. Query Embedding
    ├─ OpenAI text-embedding-3-small
-   └─ 1536-dimensional vector
+   └─ 1024-dimensional vector
     ↓
 3. Vector Search (MongoDB Atlas)
    ├─ numCandidates: 100 (limit * 20)

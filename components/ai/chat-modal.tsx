@@ -77,7 +77,10 @@ export function ChatModal({ open, onOpenChange }: ChatModalProps) {
       })
 
       if (!response.ok) {
-        throw new Error(`API error: ${response.status}`)
+        // Surface the server's reason instead of just the status code, so
+        // failures are diagnosable from the console rather than opaque.
+        const errorData = await response.json().catch(() => ({}))
+        throw new Error(errorData.message || errorData.error || `API error: ${response.status}`)
       }
 
       const data = await response.json()
@@ -104,9 +107,13 @@ export function ChatModal({ open, onOpenChange }: ChatModalProps) {
       }
     } catch (error) {
       console.error("Error sending message:", error)
+      const detail = error instanceof Error ? error.message : String(error)
       const errorMessage: Message = {
         role: "assistant",
-        content: "Sorry, I encountered an error. Please try again.",
+        content:
+          process.env.NODE_ENV === "development"
+            ? `Sorry, I encountered an error: ${detail}`
+            : "Sorry, I encountered an error. Please try again.",
       }
       setMessages((prev) => [...prev, errorMessage])
     } finally {

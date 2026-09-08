@@ -59,7 +59,7 @@
 ### Backend & AI
 
 - **Vector Database**: MongoDB Atlas (Vector Search)
-- **Embeddings**: OpenAI `text-embedding-3-small`
+- **Embeddings**: Cohere `embed-english-v3.0`
 - **LLM**: OpenRouter (Llama 3.3 8B Instruct)
 - **PDF Parsing**: pdf-parse-new
 - **Voice**: Gladia API (optional)
@@ -117,9 +117,8 @@
    MONGODB_URI="mongodb+srv://username:password@cluster.mongodb.net/"
    MONGODB_DB_NAME="portfolio_ai"
 
-   # OpenAI (Embeddings)
-   OPENAI_API_KEY="sk-..."
-   EMBEDDING_MODEL="text-embedding-3-small"
+   # Cohere (Embeddings)
+   COHERE_API_KEY="..."
 
    # OpenRouter (LLM)
    OPENROUTER_API_KEY="sk-or-v1-..."

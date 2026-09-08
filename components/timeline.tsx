@@ -31,6 +31,12 @@ const get100xTitle = (persona: string): string => {
 
 const getTimelineItems = (persona: string): TimelineItem[] => [
   {
+    title: "Applied AI & Analytics Co-op",
+    company: "SharkNinja",
+    date: "May 2026 – Present",
+    roleId: "sharkninja-coop",
+  },
+  {
     title: "Operations Manager",
     company: "ProdX- Product Collective",
     date: "Jan 2026 – Present",

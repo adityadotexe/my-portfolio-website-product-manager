@@ -40,7 +40,7 @@ The query endpoint is detecting categories correctly but returning "No relevant 
     {
       "type": "vector",
       "path": "embedding",
-      "numDimensions": 1536,
+      "numDimensions": 1024,
       "similarity": "cosine"
     }
   ]
@@ -90,7 +90,7 @@ The query endpoint is detecting categories correctly but returning "No relevant 
 Vector search uses **semantic similarity**, not exact text matching:
 
 1. **Query:** "What did Aditya work on?"
-   - Converted to embedding vector (1536 dimensions)
+   - Converted to embedding vector (1024 dimensions)
    - Represents semantic meaning, not exact words
 
 2. **Chunks:** Your documents are chunked and embedded
@@ -199,7 +199,7 @@ Vector search uses **semantic similarity**, not exact text matching:
 ### Issue: Index Creation Fails
 
 **Error:** "Invalid index definition"
-- **Solution:** Check JSON syntax, ensure dimensions = 1536, similarity = "cosine"
+- **Solution:** Check JSON syntax, ensure dimensions = 1024, similarity = "cosine"
 
 **Error:** "Collection not found"
 - **Solution:** Ensure collection `memoryIndex` exists (it should, if you've run create-index)
@@ -213,7 +213,7 @@ Vector search uses **semantic similarity**, not exact text matching:
 2. **Verify Collection Has Data:**
    - Go to Data Explorer → `memoryIndex` collection
    - Should see documents with `embedding` field
-   - Check if embeddings are arrays of 1536 numbers
+   - Check if embeddings are arrays of 1024 numbers
 
 3. **Check Index Name:**
    - Must be exactly: `vector_index`
@@ -221,7 +221,7 @@ Vector search uses **semantic similarity**, not exact text matching:
 
 4. **Verify Embedding Field:**
    - Documents should have `embedding` field
-   - Should be array of 1536 numbers
+   - Should be array of 1024 numbers
    - Field path in index: `embedding`
 
 ### Issue: Wrong Index Type
@@ -236,7 +236,7 @@ Vector search uses **semantic similarity**, not exact text matching:
 - [ ] Vector Search Index `vector_index` exists in Search & Vector Search section
 - [ ] Index status is **"Active"** (green checkmark)
 - [ ] Index is on collection: `memoryIndex`
-- [ ] Index has `embedding` field with `knnVector` type, 1536 dimensions
+- [ ] Index has `embedding` field with `knnVector` type, 1024 dimensions
 - [ ] Collection `memoryIndex` has documents with `embedding` arrays
 - [ ] Index name matches code: `vector_index` (exact match, case-sensitive)
 
